@@ -1,7 +1,7 @@
 ################################# Default configuration ###################
 baseURL = "https://examplesite.com"
 title = "Slahir Cyber Tech"
-theme = "meghna-hugo"
+#theme = "meghna-hugo"
 # post pagination
 paginate = "6"
 # post excerpt
