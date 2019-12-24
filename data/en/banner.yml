@@ -4,7 +4,7 @@ banner:
   bg_Image : "images/header.jpg"
   icon : "" # themify icon pack : https://themify.me/themify-icons
   title : "slahir cyber tech"
-  content : "Jasa pembuatan website seperti, blog, portfolio, company profile dan lain - lain. kami menekankan profesionalitas dan kenyamanan, hugo hanya salah satu kerangka kerja yang kami pakai."
+  content : "membangun website dengan mudah dan ringan"
   button:
     enable : true
     label : "Explore Us"

@@ -4,53 +4,28 @@ pricing:
   title : Our Plans
   pricing_Table :
     # pricing table loop
-    - title : Free
-      price : $99
-      unit : month
+    - title : Company Profile
+      price : Rp 1.500.000
+     # unit  : month
       link : #
       service:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
+        - 30 GB Disk Space
+        - Unlimited Akun Email
+        - 1 Pilihan Tema
+        - 1 Free Domain
+        - Unlimited Bandwidth
+        - 1 Bulan Gratis Maintenance
       
     # pricing table loop
-    - title : Silver
-      price : $149
-      unit : month
+    - title : Toko Online
+      price : Rp 800.000
+      #unit : month
       link : #
       service:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
-        
-    # pricing table loop
-    - title : Gold
-      price : $199
-      unit : month
-      link : #
-      service:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
-        
-    # pricing table loop
-    - title : Platinum
-      price : $299
-      unit : month
-      link : #
-      service:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
+        - 30 GB Disk Space
+        - Unlimited Akun Email
+        - 1 Pilihan Tema
+        - 1 Free Domain
+        - Unlimited Bandwidth
+        - 1 bulan gratis maintenance
+#t

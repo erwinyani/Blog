@@ -1,7 +1,6 @@
 ################################# Default configuration ###################
-baseURL = "https://examplesite.com"
+baseURL = "https://slahircybertech.com"
 title = "Slahir Cyber Tech"
-#theme = "meghna-hugo"
 # post pagination
 paginate = "6"
 # post excerpt
@@ -55,7 +54,7 @@ URL = "plugins/wow/wow.min.js"
   weight = 2
 
   [[menu.main]]
-  name = "Portfolio"
+  name = "Our Clients"
   URL = "portfolio"
   weight = 3
 
@@ -69,10 +68,10 @@ URL = "plugins/wow/wow.min.js"
   URL = "pricing"
   weight = 5
 
-  [[menu.main]]
-  name = "Blog"
-  URL = "blog"
-  weight = 6
+#  [[menu.main]]
+ # name = "Blog"
+  #URL = "blog"
+ # weight = 6
 
   [[menu.main]]
   name = "Contact"
@@ -83,19 +82,27 @@ URL = "plugins/wow/wow.min.js"
 
 ############################# Default Parameters ##########################
 [params]
-logo = "images/logo.png"
+#logo = "images/logo.png"
 # Meta data
-description = "Responsive Multipurpose Parallax HTML5 Template"
-author = "Themefisher"
+description = "the best solution for your company profile"
+author = "erwin aris"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
 # post share
 postShare = true
+# image
+images = ["/images/header.jpg"]
 
 # preloader
 [params.preloader]
 enable = true
-preloader = "images/logo.png"
+preloader = "images/preload.png"
+
+#pre footer
+
+pre = ["/images/preloader.png"]
+
+
 
 ############################# social icons ##########################
 [[params.social_Icon]]
@@ -134,9 +141,9 @@ link = "#"
   home = "Home"
 
   ################################ France Language ########################
-  [Languages.fr]
-  languageName = "Fr"
-  languageCode = "fr-fr"
-  contentDir = "content/french"
-  weight = 2
-  home = "Accueil"
+#  [Languages.fr]
+#  languageName = "Fr"
+#  languageCode = "fr-fr"
+#  contentDir = "content/french"
+#  weight = 2
+#  home = "Accueil"

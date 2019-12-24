@@ -3,10 +3,18 @@
 {{ partial "head.html" . }}
 
 <body id="body" data-spy="scroll" data-target=".navbar" data-offset="55">
+
+<div style="position:fixed; left:20px; bottom:20px; z-index: 9999;">
+<a href="https://api.whatsapp.com/send?phone=+6285714483770?text=Nama%3ANo.%20HP%3AAlamat%3AJenis%20Web%3A">
+<button style="vertical-align:center;height:36px;border-radius:5px">
+<img src="https://web.whatsapp.com/img/favicon/1x/favicon.png">Pesan Sekarang</button></a>
+</div>
+
   <div id="content">
     {{ partial "preloader.html" . }}
     {{- block "main" . }}{{- end }}
   </div>
+
   {{- partial "footer.html" . -}}
 </body>
 
