@@ -5,6 +5,7 @@
     {{ "<!-- mobile responsive meta -->" | safeHTML }}
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+    {{ with .Site.Params.keywords }}<meta name="keywords" content="{{ . }}" />{{ end }}
     {{ if .IsPage }}
     {{ with .Params.images }}
        {{ range first 6 . }}

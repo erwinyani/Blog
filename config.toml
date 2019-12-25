@@ -86,6 +86,9 @@ URL = "plugins/wow/wow.min.js"
 # Meta data
 description = "the best solution for your company profile"
 author = "erwin aris"
+
+#keywords
+keywords = "slahir, sct, jasaweb, jasawebsite, jasaweblampung, website"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
 # post share
