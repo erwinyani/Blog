@@ -5,27 +5,58 @@ pricing:
   pricing_Table :
     # pricing table loop
     - title : Company Profile
+      premi : Basic
       price : Rp 1.500.000
      # unit  : month
       link : #
       service:
-        - 30 GB Disk Space
-        - Unlimited Akun Email
+        - Space 500 MB
+        - 3 Akun Email
         - 1 Pilihan Tema
-        - 1 Free Domain
+        - Free Domain
+        - none
         - Unlimited Bandwidth
         - 1 Bulan Gratis Maintenance
       
     # pricing table loop
-    - title : Toko Online
-      price : Rp 800.000
+    - title : Company Profile
+      premi : Premium
+      price : Rp 2.000.000
       #unit : month
       link : #
       service:
-        - 30 GB Disk Space
-        - Unlimited Akun Email
+        - Space 1 GB
+        - 5 Akun Email
         - 1 Pilihan Tema
-        - 1 Free Domain
+        - Free Domain
+        - 1 Subdomain
         - Unlimited Bandwidth
         - 1 bulan gratis maintenance
-#t
+
+    # pricing table toko online
+    - title : Toko Online
+      premi : Mini
+      price : Rp 800.000
+      service : 
+        - Space 500 MB
+        - 3 Akun Email
+        - 1 Pilihan Tema
+        - Free Domain
+        - Unlimited Bandwith
+        - none
+        - 1 Bulan Gratis Maintenance
+
+    # pricing table toko online
+    - title : Toko Online
+      premi : Premium 
+      price : Rp 1.500.000
+      service :
+        - Space 1 GB
+        - 5 Akun Email
+        - 3 Pilihan Tema
+        - Free Domain
+        - Unlimited Bandwith
+        - 1 Subdomain
+        - 1 Bulan Gratis Maintenance
+
+ 

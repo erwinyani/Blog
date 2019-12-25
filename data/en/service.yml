@@ -11,9 +11,9 @@ service:
       title : Desain Responsif
       content : desain website lebih responsif.
       
-  # - icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
-   #  title : Media &amp; Advertisement
-    # content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    - icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
+      title : User Friendly
+      content : tampilan website sangat user friendly
       
    #- icon : ti-palette # themify icon pack : https://themify.me/themify-icons
     # title : Graphic Design
