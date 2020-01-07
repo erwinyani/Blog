@@ -1,5 +1,6 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
+<h3 style="text-align: center;">Testimonial</h3>
 {{ if $data.testimonial.testimonial.enable }}
 {{ with $data.testimonial.testimonial }}
 {{"<!-- Start Testimonial -->" | safeHTML}}
