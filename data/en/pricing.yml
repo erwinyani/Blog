@@ -7,6 +7,7 @@ pricing:
     - title : Company Profile
       premi : Basic
       price : Rp 1.500.000
+      maintain : biaya perpanjangan Rp 1.000.000
      # unit  : month
       link : #
       service:
@@ -22,6 +23,7 @@ pricing:
     - title : Company Profile
       premi : Premium
       price : Rp 2.000.000
+      maintain : biaya perpanjangan Rp 1.500.000
       #unit : month
       link : #
       service:
@@ -37,6 +39,7 @@ pricing:
     - title : Toko Online
       premi : Mini
       price : Rp 800.000
+      maintain : biaya perpanjangan Rp 500.000
       service : 
         - Space 500 MB
         - 3 Akun Email
@@ -50,6 +53,7 @@ pricing:
     - title : Toko Online
       premi : Premium 
       price : Rp 1.500.000
+      maintain : biaya perpanjangan Rp 1.000.000
       service :
         - Space 1 GB
         - 5 Akun Email

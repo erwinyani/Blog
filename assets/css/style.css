@@ -2307,4 +2307,43 @@ figcaption {
   padding: 10px;
   display: block;
 }
+
+/*==============================================
+ 	class paragraf tambahaan pricing.html
+================================================*/
+
+.warna 
+{
+  animation: warna 10s linear infinite;
+  color: violet;
+  text-transform: capitalize;
+}
+
+@keyframes warna 
+{
+  0% {
+	color: pink:
+     }
+  
+  20% {
+	color: violet;
+      }
+  
+  40% {
+	color: salmon;
+      }
+
+  60% {
+	color: white;
+      }
+
+  80% {
+	color: violet;
+      }
+
+  100% {
+	color: pink;
+       }
+}
+
 /*# sourceMappingURL=maps/style.css.map */
