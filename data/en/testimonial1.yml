@@ -1,5 +1,5 @@
-################################# Testimonial diganti team #########################
-team:
+################################# Testimonial #########################
+testimonial:
   title : Our team
   enable : true
   bg_Image : images/Animasi.gif

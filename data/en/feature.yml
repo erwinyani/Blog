@@ -2,7 +2,7 @@
 feature:
   enable : true
   image : images/preload.png
-  title : Jasa pembuatan website blog, portfolio, company profile dan lain - lain.
+  title : Jasa pembuatan website blog, toko online, web sekolah, undangan pernikahan online dan company profile.
 # content : ""
   feature_Item : 
     - icon : ti-world # themify icon pack : https://themify.me/themify-icons

@@ -4,63 +4,62 @@ pricing:
   title : Our Plans
   pricing_Table :
     # pricing table loop
-    - title : Company Profile
-      premi : Basic
-      price : Rp 1.500.000
-      maintain : biaya perpanjangan Rp 1.000.000
+    - title : Basic
+      #premi : Basic
+      price : Rp 1.300.000
+      maintain : biaya perpanjangan  Rp 800.000
      # unit  : month
       link : #
       service:
-        - Space 500 MB
+        - Space 1 GB
         - 3 Akun Email
         - 1 Pilihan Tema
         - Free Domain
-        - none
+        - None
+        - None
         - Unlimited Bandwidth
-        - 1 Bulan Gratis Maintenance
       
     # pricing table loop
-    - title : Company Profile
-      premi : Premium
+    - title : Mini
+      #premi : Premium
       price : Rp 2.000.000
       maintain : biaya perpanjangan Rp 1.500.000
       #unit : month
       link : #
       service:
-        - Space 1 GB
+        - Space 2 GB
         - 5 Akun Email
         - 1 Pilihan Tema
         - Free Domain
         - 1 Subdomain
+        - WhatsApp Chat
         - Unlimited Bandwidth
-        - 1 bulan gratis maintenance
 
     # pricing table toko online
-    - title : Toko Online
-      premi : Mini
-      price : Rp 800.000
-      maintain : biaya perpanjangan Rp 500.000
+    - title : Premium
+     # premi : Mini
+      price : Rp 3.000.000
+      maintain : biaya perpanjangan Rp 2.500.000
       service : 
-        - Space 500 MB
-        - 3 Akun Email
-        - 1 Pilihan Tema
+        - Space 4 GB
+        - Unlimited Akun Email
+        - 2 Pilihan Tema
         - Free Domain
         - Unlimited Bandwith
-        - none
-        - 1 Bulan Gratis Maintenance
+        - 1 Subdomain
+        - Whatsapp Chat Custom
 
     # pricing table toko online
-    - title : Toko Online
-      premi : Premium 
-      price : Rp 1.500.000
-      maintain : biaya perpanjangan Rp 1.000.000
+    - title : Custom
+    #  premi : Premium 
+      price : None
+      maintain : biaya perpanjangan disesuikan
       service :
-        - Space 1 GB
-        - 5 Akun Email
+        - Space Custom 
+        - Unlimited Akun Email
         - 3 Pilihan Tema
         - Free Domain
         - Unlimited Bandwith
-        - 1 Subdomain
-        - 1 Bulan Gratis Maintenance
-
- 
+        - Unlimited Subdomain
+        - WhatsApp Custom
+#i

@@ -5,15 +5,15 @@ service:
   service_Item :
     - icon : ti-world # themify icon pack : https://themify.me/themify-icons
       title : Tema
-      content : tersedia banyak pilihan tema.
+      content : Tersedia banyak pilihan tema.
       
     - icon : ti-layout # themify icon pack : https://themify.me/themify-icons
       title : Desain Responsif
-      content : desain website lebih responsif.
+      content : Desain website lebih responsif.
       
     - icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
       title : User Friendly
-      content : tampilan website sangat user friendly
+      content : Tampilan website sangat user friendly
       
    #- icon : ti-palette # themify icon pack : https://themify.me/themify-icons
     # title : Graphic Design
