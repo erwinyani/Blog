@@ -2,15 +2,15 @@
 feature:
   enable : true
   image : images/preload.png
-  title : Jasa pembuatan website blog, toko online, web sekolah, undangan pernikahan online dan company profile.
+  title : Jasa pembuatan website blog, company profile, web sekolah, toko online dan undangan online.
 # content : ""
   feature_Item : 
     - icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      title : SEO Optimized
+      title : Secure
      # content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
       
     - icon : ti-panel # themify icon pack : https://themify.me/themify-icons
-      title : Easy Customization
+      title : Redesign
      # content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
 
     - icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons

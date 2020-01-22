@@ -82,13 +82,13 @@ URL = "plugins/wow/wow.min.js"
 
 ############################# Default Parameters ##########################
 [params]
-#logo = "images/logo.png"
+logo = "favicon.png"
 # Meta data
 description = "the best solution for your company profile"
 author = "erwin aris"
 
 #keywords
-keywords = "slahir, sct, jasaweb, jasawebsite, jasaweblampung, website"
+keywords = "slahir cyber tech, cybertech, jasaweb, jasawebsite, jasaweblampung, website, webmurah"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
 # post share
@@ -99,11 +99,11 @@ images = ["/images/header.jpg"]
 # preloader
 [params.preloader]
 enable = true
-preloader = "images/preload.png"
+#preloader = "images/preload.png"
 
 #pre footer
 
-pre = ["/images/preloader.png"]
+#pre = ["/images/preloader.png"]
 
 
 

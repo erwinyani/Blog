@@ -4,7 +4,7 @@ banner:
   bg_Image : "images/header.jpg"
   icon : "" # themify icon pack : https://themify.me/themify-icons
   title : "slahir cyber tech"
-  content : "Membangun website dengan mudah dan ringan"
+  content : "Membangun website dengan mudah, cepat dan ringan"
   button:
     enable : true
     label : "Explore Us"
