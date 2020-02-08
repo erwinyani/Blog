@@ -5,8 +5,8 @@ feature:
   title : Jasa pembuatan website blog, company profile, web sekolah, toko online dan undangan online.
 # content : ""
   feature_Item : 
-    - icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      title : Secure
+    - icon : ti-lock # themify icon pack : https://themify.me/themify-icons
+      title : Aman
      # content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
       
     - icon : ti-panel # themify icon pack : https://themify.me/themify-icons
@@ -14,9 +14,9 @@ feature:
      # content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
 
     - icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
-      title : SEO Optimized
+      title : Optimasi SEO
      # content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
       
-    - icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
-      title : Easy Customization
+    - icon : ti-settings # themify icon pack : https://themify.me/themify-icons
+      title : Kustomisasi mudah
      # content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe

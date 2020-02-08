@@ -21,7 +21,7 @@
 			<article class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-duration="500ms">
 				<div class="service-block text-center">
 					<div class="service-icon text-center">
-						<i class="{{ .icon }}"></i>
+						<img class="gambar" src="{{ .icon | relURL}}" alt="{{ .alt }}">
 					</div>
 					<h3>{{ .title | markdownify }}</h3>
 					<p>{{ .content | markdownify }}</p>

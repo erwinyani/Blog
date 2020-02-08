@@ -7,19 +7,20 @@ Version: 1.3
 Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive, html5, css3
 */
 /*=== MEDIA QUERY ===*/
+@import url("https://fonts.google.com/specimen/Old+Standard+TT")
 @import url("https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,600");
 
 html {
-  background-color: #353b43; 
- /*  background-color: #ffffff; */
-   color: #737f8a;
+ /* background-color: #353b43; */
+  background-color: #ffffff;
+  color: #737f8a;
 }
 
 body {
-  background-color: #353b43;
-/*  background-color: #ffffff; */ 
-  font-family: "Anaheim", sans-serif;
+ /* background-color: #353b43;*/
+  background-color: #ffffff; 
+  font-family: "Old Standart TT", sans-serif, "Anaheim", serif;
   color: #737f8a;
   -webkit-font-smoothing: antialiased;
 }
@@ -28,16 +29,17 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5{
   font-weight: 400;
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family:"Old Standart TT", sans-serif, "Quattrocento Sans", serif;
  /* color: #afbac4; */
-  color: #ffffff;
+  color: #737f8a;
 }
 
+h6, 
 p {
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Old Standart TT", sans-serif, "Quattrocento Sans", serif;
+  color: #737f8a;
 }
 
 [scroll-behavior=smooth] {
@@ -46,16 +48,45 @@ p {
 
 pre {
  /* color: #afbac4; */
- color: #ffffff;
+  color: #000000;
 }
+
+/*================================================================
+       scroll-animations tambahan
+================================================================*/
+
+.scroll-animations {
+  display: flex;
+}
+
+.scroll-animations div {
+  flex-grow: 1;
+  padding: 30px;
+  text-align: center;
+  opacity: 0;
+  color: #333;
+}
+
+.scroll-animations div span {
+  font-size: 4em;
+  color: #5AA9E0;
+}
+
+.scroll-animations div h3 {
+  font-size: 1.9em;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
 
 /*=================================================================
   Basic Setup
 ==================================================================*/
 ::-moz-selection {
   /* Code for Firefox */
-  color: #fff;
-  background: #57cbcc;
+  color: #000000;
+/*  background: #ffffff;*/
+  background: #230844;
 }
 
 ::selection {
@@ -113,15 +144,17 @@ a:hover {
 }
 
 .btn:focus {
-  color: #ddd;
+  color: #ffffff;
 }
 
 .btn-transparent {
-  border: 1px solid #4e595f;
+ /* border: 1px solid #4e595f;*/
+/*    border: 1px solid #230844;*/
 }
 
 .btn-transparent:hover, :focus {
-  background-color: #57cbcc;
+/*  background-color: #57cbcc; */
+ /* background-color: #230844;*/
   border: 1px solid transparent;
   color: #fff;
 }
@@ -135,7 +168,7 @@ a:hover {
 }
 
 .border-meghna:before {
-  background-color: #fff;
+  background-color: #ff7f00;
   content: '';
   height: 6px;
   left: 50%;
@@ -143,7 +176,7 @@ a:hover {
   position: absolute;
   top: -4px;
   width: 50px;
-  background-color: #57cbcc;
+/*  background-color: #57cbcc;*/
 }
 
 .color {
@@ -169,11 +202,12 @@ a:hover {
 }
 
 .bg-one {
-  background-color: #353b43;
+/*  background-color: #353b43; */
 }
 
 .bg-dark {
-  background: #242930;
+/*  background: #242930; */
+    background: #ffffff;
 }
 
 .parallax-section {
@@ -213,11 +247,11 @@ a:hover {
 
 a:focus,
 a:hover {
-  color: #57cbcc;
+  color: #333;
 }
 
 .btn-main {
-  background: #57cbcc;
+  background: #230844;
   color: #fff;
   display: inline-block;
   font-size: 14px;
@@ -301,11 +335,11 @@ a:hover {
   text-transform: capitalize;
   font-weight: 700;
   font-size: 38px;
-  color: #fff;
+  color: #230844;
 }
 
 .title h2 span {
-  color: #57cbcc;
+  color: #ff7f00;
 }
 
 .title p {
@@ -321,7 +355,7 @@ a:hover {
 }
 
 .section-bg {
-  background: #292F36;
+/* background: #292F36; */
 }
 
 .overly {
@@ -405,9 +439,12 @@ a:hover {
   Navigation
 ==================================================================*/
 .navigation {
-  background-color: #1d2024;
- /*  background-color: #ffffff ; */
+ /* background-color: #043a4b; */
+  background-color: #1c0436;
+ /* background-color: #fe7272;*/
   width: 100%;
+  color: #000;
+  font-family: "Old Standart TT", sans-serif;
   margin-bottom: 0;
 }
 
@@ -416,32 +453,35 @@ a:hover {
 }
 
 .navigation .navigation-menu li a.active {
-  color: #57cbcc;
- /* color: #ffffff; */
+/*  color: #57cbcc; */
+  color: #fff;
 }
 
 .navigation .navigation-menu li a {
   font-size: 16px;
-  color: #737f8a; 
-  /* color: #000; */
+/*  color: #737f8a;*/ 
+  color: #fff;
 }
 
 .navigation .navigation-menu li a:hover,
 .navigation .navigation-menu li a:focus {
   background: transparent;
-  color: #57cbcc;
+/*  color: #57cbcc;*/
+  color: #333;
 }
 
 .navigation .navbar-toggler {
 /*  color: rgba(255, 255, 255, .5); */
-  color: #ffffff;
-  border-color: rgba(255, 255, 255, .1);
-  border-radius: 0;
+  color: #333;
+ /* border-color: rgba(255, 255, 255, .1); */
+  border-color: #333;
+  border-radius: 10px;
 }
 
 .navigation .navbar-collapse {
   padding: 10px;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+/*  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);*/
+  box-shadow: #ffffff;
   border-top: 5px solid transparent;
 }
 
@@ -453,7 +493,7 @@ a:hover {
 }
 
 .navbar-toggler:focus {
-  outline-color: #57cbcc;
+/*  outline-color: #57cbcc; */
 }
 
 .bg-1 {
@@ -493,7 +533,7 @@ a:hover {
 
 .hero-area .block .video-button {
   background: #fff;
-  color: #57cbcc;
+  color: #230844;
   display: inline-block;
   height: 60px;
   width: 60px;
@@ -580,7 +620,8 @@ a:hover {
   About us section
 ==================================================================*/
 .about .block {
-  background: #242930;
+/*  background: #242930; */
+  background: #ffffff;
   padding: 30px;
   border-bottom: 2px solid transparent;
   transition: .5s all;
@@ -660,7 +701,7 @@ a:hover {
 
 .about-2 .content-block .media i {
   font-size: 30px;
-  color: #57cbcc;
+  color: #230844;
 }
 
 .about-2 .content-block .media h4 {
@@ -696,7 +737,7 @@ a:hover {
   padding: 100px 0;
   background-image: url("../images/call-to-action/call-to-action-bg.jpg");
   background-size: cover;
-  color: #fff;
+  color: #000000;
 }
 
 .call-to-action-2 h2 {
@@ -704,7 +745,7 @@ a:hover {
 }
 
 .call-to-action-2 p {
-  color: #fff;
+  color: #000000;
 }
 
 .call-to-action-2 .btn-main {
@@ -729,8 +770,10 @@ a:hover {
   background-color: transparent;
   border-radius: 0;
   padding: 5px 10px;
-  color: #ddd;
-  border: 1px solid rgba(236, 239, 241, 0.07);
+/*  color: #ddd;*/
+ /* border: 1px solid rgba(236, 239, 241, 0.07);*/
+  color: #737f8a;
+  border: 1px solid #999;
 }
 
 .form-meghna .form-control:focus {
@@ -741,16 +784,16 @@ a:hover {
 .form-meghna input:hover,
 .form-meghna textarea:hover,
 #contact-submit:hover {
-  border-color: #57cbcc;
+  border-color: #230844;
 }
 
 .form-meghna ::placeholder {
-  color: #ddd !important;
+  color: #737f8a !important;
 }
 
 #contact-submit {
   border: 1px solid rgba(236, 239, 241, 0.07);
-  background: #57cbcc;
+  background: #230844;
   padding: 12px 0;
   width: 100%;
   margin: 0;
@@ -827,18 +870,18 @@ a:hover {
   Pricing section
 ==================================================================*/
 .price-item {
-  border: 1px solid rgba(236, 239, 241, 0.07);
+  border: 1px solid rgba(115, 127, 138, 0.10);
   padding-bottom: 30px;
   margin-bottom: 15px;
 }
 
 .price-title {
-  background-color: #292F36;
+/*  background-color: #292F36;*/
   padding: 30px 0 20px;
 }
 
 .price-title h3 {
-  color: #57cbcc;
+  color: #000;
   margin: 0 0 10px;
   text-transform: uppercase;
 }
@@ -849,7 +892,7 @@ a:hover {
 }
 
 .price-title .value {
-  color: #57cbcc;
+  color: #000;
   font-size: 30px;
 }
 
@@ -861,17 +904,18 @@ a:hover {
 }
 
 .pricing li {
-  color: #ffffff;
+  color: #000000;
   padding: 10px 0;
 }
 
 .pricing li:last-child {
-  border-bottom: 1px solid rgba(236, 239, 241, 0.07);
+/*  border-bottom: 1px solid rgba(236, 239, 241, 0.07);*/
   margin-bottom: 20px;
 }
 
 .pricing li:nth-child(2n) {
-  background-color: #292F36;
+/*  background-color: #230844;*/
+  color: #000;
 }
 
 .pricing li .btn {
@@ -900,7 +944,8 @@ a:hover {
 }
 
 .portfolio-filter .btn.active {
-  border-color: #57cbcc;
+  /*border-color: #57cbcc;*/
+    border-color: #230844;
 }
 
 .portfolio-block {
@@ -986,6 +1031,13 @@ a:hover {
 .service-block .service-icon {
   margin-bottom: 10px;
   font-size: 50px;
+  color: #230844;
+}
+
+.gambar
+{
+  height: 70px;
+  width:  100px;
 }
 
 /*=================================================================
@@ -1003,15 +1055,15 @@ a:hover {
   -webkit-box-shadow: 0 5px 65px 0 rgba(0, 0, 0, 0.15);
 }
 
-.service-2 .service-item:hover i {
-  background: #fff;
-  color: #57cbcc;
+.service-2 .service-item:hover img {
+  background: #ff7f00;
+  color: #000;
 }
 
-.service-2 .service-item i {
+.service-2 .service-item img {
   font-size: 30px;
   display: inline-block;
-  background: #57cbcc none repeat scroll 0 0;
+  background: #230844 none repeat scroll 0 0;
   border-radius: 30px;
   box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.1);
   color: #fff;
@@ -1164,6 +1216,8 @@ a:hover {
 
 .client-thumb img {
   border-radius: 50%;
+  height: 115px;
+  width: 100px;
   margin: 0 auto;
   max-width: 115px;
   width: 100%;
@@ -1245,12 +1299,14 @@ a:hover {
   Latest Posts
 ==================================================================*/
 .note {
-  background-color: #292F36;
+  /*background-color: #292F36;*/
+  background-color: #ffffff;
   border: 1px solid #4e595f;
 }
 
 .post-block {
-  background-color: #292F36;
+/*  background-color: #292F36; */
+  background-color: #ffffff;
   margin-bottom: 10px;
 }
 
@@ -1550,7 +1606,7 @@ input#e-mail,
 }
 
 .social-icon ul li a {
-  background-color: #26292e;
+  background-color: #ffffff;
   border: 1px solid transparent;
   display: block;
   height: 70px;
@@ -1559,7 +1615,7 @@ input#e-mail,
 }
 
 .social-icon ul li a:hover {
-  background: #57cbcc;
+  background: #1c0436;
 }
 
 .social-icon ul li a:hover i {
@@ -1701,11 +1757,12 @@ input#e-mail,
 }
 
 #post-thumb .owl-buttons {
-  color: #fff;
+  color: #000;
 }
 
 .post-meta {
-  background-color: #3d444a;
+/*  background-color: #3d444a; */
+  background-color: #ffffff;
   border-top: 1px solid #4e595f;
   font-size: 13px;
   margin: 20px 0 0;
@@ -2318,10 +2375,34 @@ figcaption {
 .warna 
 {
   animation: warna 10s linear infinite;
-  color: violet;
+  color: #230844;
   text-transform: capitalize;
 }
 
+.btn-tambahan a:hover 
+{
+  background-color: #230844;
+ }
+
+ /* ===========================
+     class li tambahan footer
+    ========================== */
+
+.li-tambahan 
+{
+  color: #000;
+}
+
+.li-tambahan a 
+{
+  color: #230844;;
+}
+
+.li-tambahan a:hover
+{
+  color: #ff7f00;
+
+/*
 @keyframes warna 
 {
   0% {
@@ -2337,7 +2418,7 @@ figcaption {
       }
 
   60% {
-	color: white;
+	color: #57cbcc;
       }
 
   80% {
@@ -2349,4 +2430,5 @@ figcaption {
        }
 }
 
+*/
 /*# sourceMappingURL=maps/style.css.map */

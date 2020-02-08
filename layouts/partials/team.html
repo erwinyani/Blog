@@ -21,14 +21,14 @@
 					<div class="item text-center">
 
 						{{"<!-- client photo -->" | safeHTML}}
-						<div class="client-thumb">
+						<!-- <div class="client-thumb">
 							<img src="{{ .image | relURL }}" class="img-fluid" alt="{{ .name }}">
-						</div>
+						</div>-->
 
 						{{"<!-- client info -->" | safeHTML}}
 						<div class="client-info">
 							<div class="client-meta">
-								<h3>{{ .name }}</h3>
+								<h3 class="text-white">{{ .name }}</h3>
 								<span>{{ .date }}</span>
 							</div>
 							<div class="client-comment">

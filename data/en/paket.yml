@@ -1,0 +1,71 @@
+##################################### pricing ##############################
+paket:
+  enable : true
+  title : Paket Undangan
+  pricing_Table :
+    # pricing table loop
+    - title : Sakinah
+      #premi : Basic
+      price : 100K
+      #maintain : biaya perpanjangan  Rp 800.000
+     # unit  : month
+      link : /undangan/paket/
+      paket: Paket Undangan
+      service:
+        - 1 Undangan
+        - Galeri Foto
+        - 1 Desain Template
+        - Subdomain
+        - Counter Timer
+        - None
+        - None
+      
+    # pricing table loop
+    - title : Mawaddah
+      #premi : Premium
+      price : 400K
+      #maintain : biaya perpanjangan Rp 1.500.000
+      #unit : month
+      link : /undangan/paket/
+      paket: Paket Undangan
+      service:
+        - 1 Undangan
+        - Galeri Foto
+        - 2 Pilihan Template
+        - Subdomain 
+        - Counter Timer
+        - None
+        - None
+
+    # pricing table toko online
+    - title : Warahmah
+     # premi : Mini
+      price : 900K
+      #maintain : 
+      link: /undangan/paket/
+      paket: Paket Undangan
+      service : 
+        - 1 Undangan  
+        - Galeri Foto
+        - Desain Sesuai Keinginan
+        - Domain 
+        - Counter Timer
+        - Google Map
+        - Musik Background Custom
+
+    # pricing table toko online
+    - title : Full Custom
+    #  premi : Premium 
+    #price : None
+    #maintain : biaya perpanjangan disesuikan
+      link: /undangan/paket/
+      paket: Paket Undangan
+      service :
+        - Custom 
+        - Custom
+        - Tema Custom
+        - Domain
+        - Custom
+        - Custom
+        - Custom
+

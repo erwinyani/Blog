@@ -1,3 +1,5 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
 {{"<!-- end Contact Area -->" | safeHTML}}
 <footer id="footer" class="section-bg">
 	<div class="container">
@@ -11,15 +13,25 @@
 						<li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
 						{{ end }}
 					</ul>
-				</div>
+			</div>
 
 				{{"<!-- copyright -->" | safeHTML}}
-				<div class="copyright text-center">
-				<!--	<a href="{{ .Site.BaseURL | absURL }}">
+					<div class="copyright text-center">
+			<!--		<a href="{{ .Site.BaseURL | absURL }}">
 						<img src="{{ .Site.Params.pre | absURL }}" alt="sct" />
 					</a> -->
-					<br>
-					<p>{{ i18n "copyright" | markdownify }}</p>
+
+			       		 {{"<!-- FAQ -->" | safeHTML}}
+					<div class="li-tambahan">
+						<ul class="list-inline">
+							<li class="list-inline-item"><a href="#">FAQ |</a></li>
+							<li class="list-inline-item"><a href="#">Syarat dan Ketentuan</a></li>
+						<ul>
+					</div>
+					
+		
+						<p>{{ i18n "copyright" | markdownify }}</p>
+					
 				</div>
 			</div>
 		</div>
@@ -58,3 +70,4 @@
   ga('send', 'pageview');
 </script>
 {{ end }}
+

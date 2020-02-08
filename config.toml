@@ -49,7 +49,7 @@ URL = "plugins/wow/wow.min.js"
   weight = 1
 
   [[menu.main]]
-  name = "Service"
+  name = "Services"
   URL = "services"
   weight = 2
 
@@ -68,10 +68,16 @@ URL = "plugins/wow/wow.min.js"
   URL = "pricing"
   weight = 5
 
-#  [[menu.main]]
- # name = "Blog"
+  #[[menu.main]]
+  #name = "Blog"
   #URL = "blog"
- # weight = 6
+  #weight = 6
+ 
+
+  #[[menu.main]]
+  #name = "Undangan"
+  #URL = "undangan"
+  #weight = 6
 
   [[menu.main]]
   name = "Contact"
@@ -82,7 +88,7 @@ URL = "plugins/wow/wow.min.js"
 
 ############################# Default Parameters ##########################
 [params]
-logo = "favicon.png"
+#logo = "favicon.png"
 # Meta data
 description = "the best solution for your company profile"
 author = "erwin aris"
@@ -104,6 +110,7 @@ enable = true
 #pre footer
 
 #pre = ["/images/preloader.png"]
+
 
 
 

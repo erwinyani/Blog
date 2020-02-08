@@ -17,7 +17,7 @@
 			{{"<!-- /section title -->" | safeHTML}}
 
 			{{"<!-- Contact Details -->" | safeHTML}}
-			<div class="contact-info text-white col-lg-6 wow fadeInUp" data-wow-duration="500ms">
+			<div class="contact-info text-dark col-lg-6 wow fadeInUp" data-wow-duration="500ms">
 				<h3>{{ .subtitle | markdownify }}</h3>
 				<p> {{ .content | markdownify }} </p>
 				<div class="contact-details">
@@ -33,15 +33,18 @@
 			{{"<!-- Contact Form -->" | safeHTML}}
 			<div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
 				<form id="contact-form" class="form-meghna" method="post" action="{{ .form_Action | safeURL }}" role="form" enctype="multipart/form-data">
-					<input name="e-mail" type="text" id="e-mail" autocomplete="off">
+
 					<div class="form-group">
 						<input type="text" placeholder="Nama" class="form-control" name="name" id="name">
 					</div>
 					<div class="form-group">
-						<input type="email" placeholder="Email" class="form-control" name="email" id="email">
+						<input type="text" placeholder="Jabatan" class="form-control" name="jabatan" id="jabatan">
 					</div>
 					<div class="form-group">
-						<input type="file" placeholder="picture" class="form-control" name="picture" id="file" accept="image/*"><span class="text-white">Masukan foto profil</span>
+						<input type="email" placeholder="Email" class="form-control" name="e-mail" id="email">
+					</div>
+					<div class="form-group">
+						<input type="file" class="form-control" name="pic" id="file" accept="image/*"><span class="text-white">Masukan foto profil</span>
 					</div>
 					<div class="form-group">
 						<textarea rows="6" placeholder="Pesan" class="form-control" name="message" id="message"></textarea>

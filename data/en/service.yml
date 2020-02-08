@@ -3,17 +3,17 @@ service:
   enable : true
   title : Our Services
   service_Item :
-    - icon : ti-world # themify icon pack : https://themify.me/themify-icons
+    - icon : images/service/tema1.png # themify icon pack : https://themify.me/themify-icons
       title : Tema
       content : Tersedia banyak pilihan tema.
       
-    - icon : ti-layout # themify icon pack : https://themify.me/themify-icons
+    - icon : images/service/responsive.png # themify icon pack : https://themify.me/themify-icons
       title : Desain Responsif
       content : Desain website lebih responsif.
       
-    - icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
-      title : User Friendly
-      content : Tampilan website sangat user friendly
+    - icon : images/service/support.png # themify icon pack : https://themify.me/themify-icons
+      title : Support & Maintenance
+      content : Admin support dan tim teknis yang handal membantu website anda tetap online.  
       
    #- icon : ti-palette # themify icon pack : https://themify.me/themify-icons
     # title : Graphic Design

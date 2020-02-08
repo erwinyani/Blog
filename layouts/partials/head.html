@@ -1,5 +1,6 @@
 <head>
     <meta charset="utf-8">
+    <!--    <meta http-equiv="refresh" content="5">  ini adalah auto refresh-->
     <title>{{ .Title }}</title>
 
     {{ "<!-- mobile responsive meta -->" | safeHTML }}
@@ -21,6 +22,7 @@
     {{ end }}
     {{ with .Site.Params.author }}
     <meta name="author" content="{{ . }}">{{ end }}
+    <meta name="theme-color" content="#1c0436" />
     {{ hugo.Generator }}
 
     {{ "<!-- plugins -->" | safeHTML }}

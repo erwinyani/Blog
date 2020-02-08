@@ -9,7 +9,8 @@ pricing:
       price : Rp 1.300.000
       maintain : biaya perpanjangan  Rp 800.000
      # unit  : month
-      link : #
+      link : /undangan/paket/
+      paket: Paket Undangan
       service:
         - Space 1 GB
         - 3 Akun Email
@@ -25,7 +26,8 @@ pricing:
       price : Rp 2.000.000
       maintain : biaya perpanjangan Rp 1.500.000
       #unit : month
-      link : #
+      link : /undangan/paket/
+      paket: Paket Undangan
       service:
         - Space 2 GB
         - 5 Akun Email
@@ -40,6 +42,8 @@ pricing:
      # premi : Mini
       price : Rp 3.000.000
       maintain : biaya perpanjangan Rp 2.500.000
+      link: /undangan/paket/
+      paket: Paket Undangan
       service : 
         - Space 4 GB
         - Unlimited Akun Email
@@ -47,13 +51,15 @@ pricing:
         - Free Domain
         - Unlimited Bandwith
         - 1 Subdomain
-        - Whatsapp Chat Custom
+        - Whatsapp Chat
 
     # pricing table toko online
     - title : Custom
     #  premi : Premium 
-      price : None
+    #price : None
       maintain : biaya perpanjangan disesuikan
+      link: /undangan/paket/
+      paket: Paket Undangan
       service :
         - Space Custom 
         - Unlimited Akun Email
@@ -61,5 +67,5 @@ pricing:
         - Free Domain
         - Unlimited Bandwith
         - Unlimited Subdomain
-        - WhatsApp Custom
+        - WhatsApp Chat Custom
 
