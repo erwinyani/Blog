@@ -34,6 +34,8 @@
     {{ $styles := resources.Get "css/style.css" | minify}}
     <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Old+Standard+TT&display=swap">
+
     {{ "<!--Favicon-->" | safeHTML }}
     <link rel="shortcut icon" href="{{ `favicon.png` | absURL }} " type="image/x-icon">
     <link rel="icon" href="{{ `favicon.png` | absURL }} " type="image/x-icon">
