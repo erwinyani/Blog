@@ -1314,7 +1314,7 @@ a:hover {
 
 .post-block {
 /*  background-color: #292F36; */
-  background-color: #ffffff;
+  background-color: #f1f1f1;
   margin-bottom: 10px;
 }
 
@@ -1327,6 +1327,7 @@ a:hover {
   font-size: 20px;
   line-height: 1.5;
   text-transform: capitalize;
+  color: #000;
 }
 
 .note .media-wrapper {
@@ -1367,7 +1368,8 @@ a:hover {
 
 .post-meta>span {
   color: #666;
-  border-right: 1px solid #dedede;
+  /* border-right: 1px solid #dedede; */
+  border-right: 1px solid #c21616;
   display: inline-block;
   font-size: 13px;
   margin: 10px 10px 0 0;
@@ -1817,7 +1819,7 @@ aside.widget {
 }
 
 .widget-title>h3 {
-  color: #fff;
+  color: #000;
   margin-bottom: 15px;
   margin-top: 0;
   position: relative;
@@ -2009,7 +2011,7 @@ blockquote {
 .comment-reply-form>h3,
 .author-about>h4,
 .comments>h4 {
-  border-bottom: 1px solid #4e595f;
+  border-bottom: 1px solid #230844;
   margin-bottom: 15px;
   margin-top: 0;
   padding-bottom: 10px;
@@ -2339,17 +2341,21 @@ figcaption {
   width: 40px;
   height: 40px;
   border-radius: 0;
-  background-color: #26292e;
-  border: 1px solid #26292e;
+  /* background-color: #26292e; */
+  background-color: #230844;
+  /* border: 1px solid #26292e; */
   text-align: center;
   margin-right: 6px;
   font-weight: 700;
-  color: #55606a;
+  /* color: #55606a; */
+  color: #ffffff;
 }
 
 .pagination .page-item .page-link:hover {
-  background: #57cbcc;
-  border-color: #57cbcc;
+  /* background: #57cbcc; */
+  background: #2c9091;
+  /* border-color: #57cbcc; */
+  border-color: #2c9091;
   color: #fff
 }
 
@@ -2359,9 +2365,9 @@ figcaption {
 }
 
 .pagination .page-item.active .page-link {
-  background: #57cbcc;
+  background: #2c9091;
   color: #fff;
-  border-color: #57cbcc;
+  border-color: #2c9091;
 }
 
 #select-language {
@@ -2409,7 +2415,7 @@ figcaption {
 .li-tambahan a:hover
 {
   color: #ff7f00;
-
+}
 /*
 @keyframes warna 
 {

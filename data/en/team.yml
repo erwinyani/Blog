@@ -2,7 +2,7 @@
 team:
   title : Our team
   enable : true
-  bg_Image : images/code1.jpeg
+  bg_Image : images/code2.jpg
   testimonial_Item :
     # testimonial item loop
     - name : Erwin Aris Prayogo

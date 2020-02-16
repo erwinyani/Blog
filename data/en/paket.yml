@@ -63,8 +63,8 @@ paket:
       service :
         - Custom 
         - Custom
-        - Tema Custom
-        - Domain
+        - Custom
+        - Custom
         - Custom
         - Custom
         - Custom

@@ -69,10 +69,10 @@ URL = "plugins/wow/wow.min.js"
   URL = "pricing"
   weight = 5
 
-  #[[menu.main]]
-  #name = "Blog"
-  #URL = "blog"
-  #weight = 6
+  [[menu.main]]
+  name = "Blog"
+  URL = "blog"
+  weight = 6
  
 
   #[[menu.main]]
@@ -108,7 +108,6 @@ images = ["/images/header.jpg"]
 enable = true
 #preloader = "images/preload.png"
 
-#pre footer
 
 #pre = ["/images/preloader.png"]
 

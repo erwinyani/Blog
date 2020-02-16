@@ -1,7 +1,7 @@
 ############################### Banner ################################
 banner:
   enable : true
-  bg_Image : "images/code2.jpeg"
+  bg_Image : "images/code1.jpg"
   icon : "" # themify icon pack : https://themify.me/themify-icons
   title : "slahir cyber tech"
   content : "Membangun website dengan mudah, cepat dan ringan"
