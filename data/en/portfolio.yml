@@ -3,14 +3,14 @@ portfolio:
   enable : true
   title : Our Client
   filter_List :
-    - filter_Type : photography
-      filter_Title : Website
+    - filter_Type : development
+      filter_Title : Company Profile
       
     - filter_Type : design
-      filter_Title : Desain
+      filter_Title : Online Shop
       
-    - filter_Type : development
-      filter_Title : Development
+    - filter_Type : photography
+      filter_Title : Weddings
 
   portfolio_Item :
  #   - types : ["design"]
@@ -55,14 +55,14 @@ portfolio:
      # title : Business Card
      # content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
       
-  #  - types : ["design", "development"]
-     # image : images/portfolio/portfolio-8.jpg
-     # URL : #
-     # title : Stationary Design
-     # content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+    - types : ["photography"]
+      image : images/portfolio/erwinyani.png
+      URL : #
+      title : Wedding 
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!  
       
-    - types : ["design", "photography"]
-      image : images/portfolio/Keum.jpg
+    - types : ["development"]
+      image : images/portfolio/keum.png
       URL : #
       title : company profile
       content : persusahaan yang bergerak dibidang spring electronics dan automotive!
