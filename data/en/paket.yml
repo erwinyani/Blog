@@ -4,7 +4,7 @@ paket:
   title : Paket Undangan
   pricing_Table :
     # pricing table loop
-    - title : Sakinah
+    - title : Ta'aruf
       #premi : Basic
       price : 100K
       #maintain : biaya perpanjangan  Rp 800.000
@@ -21,7 +21,7 @@ paket:
         - None
       
     # pricing table loop
-    - title : Mawaddah
+    - title : Khitbah
       #premi : Premium
       price : 400K
       #maintain : biaya perpanjangan Rp 1.500.000
@@ -34,11 +34,11 @@ paket:
         - 2 Pilihan Template
         - Subdomain 
         - Counter Timer
-        - None
+        - Background Music
         - None
 
     # pricing table toko online
-    - title : Warahmah
+    - title : Walimatul 'Urs
      # premi : Mini
       price : 900K
       #maintain : 
@@ -51,10 +51,10 @@ paket:
         - Domain 
         - Counter Timer
         - Google Map
-        - Musik Background Custom
+        - Background Music
 
     # pricing table toko online
-    - title : Full Custom
+    - title : Samawa Full Custom
     #  premi : Premium 
     #price : None
     #maintain : biaya perpanjangan disesuikan

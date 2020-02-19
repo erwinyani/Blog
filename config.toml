@@ -103,6 +103,8 @@ postShare = true
 # image
 images = ["/images/header.jpg"]
 
+gambar = ["/images/walimah/DSC_0255.JPG"]
+
 # preloader
 [params.preloader]
 enable = true
