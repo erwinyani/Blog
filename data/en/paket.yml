@@ -4,7 +4,7 @@ paket:
   title : Paket Undangan
   pricing_Table :
     # pricing table loop
-    - title : Ta'aruf
+    - title : Sakinah
       #premi : Basic
       price : 100K
       #maintain : biaya perpanjangan  Rp 800.000
@@ -21,7 +21,7 @@ paket:
         - None
       
     # pricing table loop
-    - title : Khitbah
+    - title : Mawaddah
       #premi : Premium
       price : 400K
       #maintain : biaya perpanjangan Rp 1.500.000
@@ -38,7 +38,7 @@ paket:
         - None
 
     # pricing table toko online
-    - title : Walimatul 'Urs
+    - title : Warrahmah
      # premi : Mini
       price : 900K
       #maintain : 
@@ -54,18 +54,13 @@ paket:
         - Background Music
 
     # pricing table toko online
-    - title : Samawa Full Custom
+    - title : Full
     #  premi : Premium 
-    #price : None
+      price : Custom
     #maintain : biaya perpanjangan disesuikan
       link: /undangan/paket/
       paket: Paket Undangan
       service :
-        - Custom 
-        - Custom
-        - Custom
-        - Custom
-        - Custom
-        - Custom
-        - Custom
+        - Full Custom
+        - Full Custom 
 

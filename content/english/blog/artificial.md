@@ -6,4 +6,4 @@ author: Mark Dinn
 description : "kecerdasan buatan"
 ---
 
-**Kecerdasan Buatan _(Artificial Intelligence)_** sebagai peluang atau ancaman
+**Kecerdasan Buatan _(Artificial Intelligence)_** sebagai peluang atau ancaman ??
