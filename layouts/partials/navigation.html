@@ -7,8 +7,12 @@
 		<a class="navbar-brand logo" href="{{ .Site.BaseURL | relLangURL }}"> 
 			{{ if .Site.Params.logo }}
 			<img class="img-fluid" src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}">
-			{{ else }}
-			{{ .Site.Title }}
+			{{ else }}	
+				<div class="pukul">
+					=> <span id="waktu"></span> <=
+				</div>
+			
+			<!-- {{ .Site.Title }} -->
 			{{ end }}
 		</a>
 		{{"<!-- /logo -->" | safeHTML}}

@@ -2416,8 +2416,8 @@ figcaption {
 {
   color: #ff7f00;
 }
-/*
-@keyframes warna 
+
+@keyframes move 
 {
   0% {
 	color: pink:
@@ -2443,6 +2443,20 @@ figcaption {
 	color: pink;
        }
 }
-*/
+
 
 /* sourceMappingURL=maps/style.css.map */
+
+.pukul 
+{
+  font-size: 25px;
+  float: left;
+  animation: move 10s linear infinite;
+}
+
+@media screen and (max-width: 600px)
+{
+  .pukul {
+    font-size: 20px;
+  }
+}

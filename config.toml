@@ -39,6 +39,8 @@ URL = "plugins/shuffle/shuffle.min.js"
 URL = "plugins/magnific-popup/jquery.magnific-popup.min.js"
 [[params.plugins.js]]
 URL = "plugins/wow/wow.min.js"
+[[params.plugins.js]]
+URL = "plugins/waktu/waktu.js"
 
 
 ############################# Navigation ##################################
@@ -69,10 +71,10 @@ URL = "plugins/wow/wow.min.js"
   URL = "pricing"
   weight = 5
 
-  [[menu.main]]
-  name = "Blog"
-  URL = "blog"
-  weight = 6
+  #[[menu.main]]
+  #name = "Blog"
+  #URL = "blog"
+  #weight = 6
  
 
   #[[menu.main]]
