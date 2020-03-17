@@ -9,7 +9,7 @@ pricing:
       price : Rp 1.300.000
       maintain : biaya perpanjangan  Rp 800.000
      # unit  : month
-      link : /undangan/paket/
+      # link : /undangan/paket/
       paket: Paket Undangan
       service:
         - Space 1 GB
@@ -26,7 +26,7 @@ pricing:
       price : Rp 2.000.000
       maintain : biaya perpanjangan Rp 1.500.000
       #unit : month
-      link : /undangan/paket/
+      # link : /undangan/paket/
       paket: Paket Undangan
       service:
         - Space 2 GB
@@ -42,7 +42,7 @@ pricing:
      # premi : Mini
       price : Rp 3.000.000
       maintain : biaya perpanjangan Rp 2.500.000
-      link: /undangan/paket/
+      # link: /undangan/paket/
       paket: Paket Undangan
       service : 
         - Space 4 GB
@@ -58,7 +58,7 @@ pricing:
     #  premi : Premium 
     #price : None
       maintain : biaya perpanjangan disesuikan
-      link: /undangan/paket/
+      # link: /undangan/paket/
       paket: Paket Undangan
       service :
         - Space Custom 

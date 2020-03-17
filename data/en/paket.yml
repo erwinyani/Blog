@@ -15,8 +15,9 @@ paket:
         - 1 Undangan
         - Galeri Foto
         - 1 Desain Template
-        - Subdomain
+        - Subdomain (slahircybertech.com/ErwinYaniWedding/)
         - Counter Timer
+        - None
         - None
         - None
       
@@ -32,9 +33,10 @@ paket:
         - 1 Undangan
         - Galeri Foto
         - 2 Pilihan Template
-        - Subdomain 
+        - Subdomain (slahircybertech.com/ErwinYaniWedding/))
         - Counter Timer
-        - Background Music
+        - Google Map
+        - None
         - None
 
     # pricing table toko online
@@ -48,10 +50,11 @@ paket:
         - 1 Undangan  
         - Galeri Foto
         - Desain Sesuai Keinginan
-        - Domain 
+        - Domain (https://erwinyani.com)
         - Counter Timer
         - Google Map
         - Background Music
+        - Video Story
 
     # pricing table toko online
     - title : Full
