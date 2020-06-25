@@ -4,19 +4,19 @@ contact:
   title : Contact Us
   subtitle : Alamat
   # content : Marga Agung, Blok D Jati Agung - Lampung Selatan 
-  form_Action: "https://getform.io/f/a7dd7e0b-e862-44d8-9c47-ce191fec88a8" #contact form works with https://formspree.io
-#  map:
- #   enable : true
-  #  gmapAPI : "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
-   # mapLatitude : 51.5223477
-    #mapLongitude: -0.1622023
+  # form_Action: "https://getform.io/f/a7dd7e0b-e862-44d8-9c47-ce191fec88a8" #contact form works with https://formspree.io
+  # map:
+  #   enable : true
+  #   gmapAPI : "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+  #   mapLatitude : 51.5223477
+  #   mapLongitude: -0.1622023
 
   contact_Details :
    - icon : ti-location-pin # themify icon pack : https://themify.me/themify-icons
      info : "Marga Agung, BLok D Jati Agung - Lampung Selatan"
       
    - icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
-     info : "Phone: 0857-144-837-70"
+     info : "Phone: 0882-1312-8081"
       
    # - icon : ti-printer # themify icon pack : https://themify.me/themify-icons
     #  info : "Fax: +880-31-000-000"

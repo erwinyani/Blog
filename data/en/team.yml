@@ -16,8 +16,3 @@ team:
     #  date : Dec 26, 2018
       content : CTO
       
-    # testimonial item loop
-    - name : Januar Sadikin
-    #  image : images/team/client-1.jpg
-     # date : Dec 26, 2018
-      content : Web Developer

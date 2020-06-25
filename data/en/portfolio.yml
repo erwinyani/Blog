@@ -12,6 +12,10 @@ portfolio:
     - filter_Type : photography
       filter_Title : Wedding
 
+    - filter_Type : akademi
+      filter_Title : Web Akademi
+
+
   portfolio_Item :
  #   - types : ["design"]
    #   image : images/portfolio/portfolio-1.jpg
@@ -59,10 +63,16 @@ portfolio:
       image : images/portfolio/erwinyani.png
       URL : /demo/wedding/
       title : Wedding 
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!  
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!.  
       
     - types : ["development"]
       image : images/portfolio/keum.png
       URL : #
       title : company profile
-      content : persusahaan yang bergerak dibidang spring electronics dan automotive!
+      content : persusahaan yang bergerak dibidang spring electronics dan automotive!.
+
+    - types : ["akademi"]
+      image : images/portfolio/man.png
+      URL : #
+      title : Web Sekolah
+      content : Official Website MAN 1 Way Kanan.
