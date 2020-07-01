@@ -15,3 +15,6 @@ description : "This is meta description"
 
 4. Apakah website responsif ?
     > Semua website yang kami buat sangat - sangat responsif untuk dibuka diperangkat apappun, seperti Smart Phone dan tablet.
+
+5. Apakah website saya dijamin 100% keamannya ?
+    > Kami tidak memberikan jaminan 100% keamanan sistem pada website, Tapi kami menggunakan 2 metode agar tidak terjadi hal-hal yang tidak diinginkan pertama : _Optimasi_ dan yang kedua : _Otentikasi_. misal backup secara berkala, menggunakan validasi SSL dll.

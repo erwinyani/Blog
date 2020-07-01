@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 baseURL = "https://slahircybertech.com"
-title = "Slahir Cyber Tech"
+title = "Slahir Technology"
 # post pagination
 paginate = "6"
 # post excerpt
@@ -26,6 +26,7 @@ URL = "plugins/magnific-popup/magnific-popup.css"
 [[params.plugins.css]]
 URL = "plugins/slick/slick.css"
 
+
 # js plugins
 [[params.plugins.js]]
 URL = "plugins/jquery/jquery.min.js"
@@ -41,6 +42,7 @@ URL = "plugins/magnific-popup/jquery.magnific-popup.min.js"
 URL = "plugins/wow/wow.min.js"
 [[params.plugins.js]]
 URL = "plugins/waktu/waktu.js"
+
 
 
 ############################# Navigation ##################################
