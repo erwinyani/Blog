@@ -60,7 +60,7 @@ portfolio:
      # content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
       
     - types : ["photography"]
-      image : images/portfolio/erwinyani.png
+      image : images/portfolio/wedding.png
       URL : /demo/wedding/
       title : Wedding 
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!.  
