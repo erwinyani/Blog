@@ -16,7 +16,8 @@ paket:
         - Galeri Foto
         - 1 Desain Template
         - Subdomain (https://slahircybertech.com/Erwinyaniwedding/)
-        - Counter Timer
+        - Countdown Timer
+        - Google Maps
         - None
         - None
         - None
@@ -34,10 +35,12 @@ paket:
         - Galeri Foto
         - 2 Pilihan Template
         - Subdomain (https://slahircybertech.com/Erwinyaniwedding/)
-        - Counter Timer
-        - Google Map
+        - Countdown Timer
+        - Google Maps
+        - Friend Wishes 
+        - Background Music
         - None
-        - None
+      minat: Paling Diminati
 
     # pricing table toko online
     - title : Warrahmah
@@ -51,10 +54,12 @@ paket:
         - Galeri Foto
         - Desain Sesuai Keinginan
         - Domain (https://erwinyani.com)
-        - Counter Timer
-        - Google Map
+        - Coundown Timer
+        - Google Maps
+        - Friend Wishes
         - Background Music
         - Video Story
+        - Love story
 
     # pricing table toko online
     - title : Full
