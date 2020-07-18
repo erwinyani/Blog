@@ -63,7 +63,7 @@ portfolio:
       image : images/portfolio/wedding.png
       URL : /demo/wedding/
       title : Wedding 
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!.  
+      content : .  
       
     - types : ["development"]
       image : images/portfolio/keum.png

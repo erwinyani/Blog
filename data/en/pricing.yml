@@ -5,9 +5,9 @@ pricing:
   pricing_Table :
     # pricing table loop
     - title : Basic
-      #premi : Basic
-      price : Rp 1.300.000
-      maintain : biaya perpanjangan  Rp 800.000
+      premi : Rp 2.500.000
+      price : Rp 1.500.000
+      maintain : biaya perpanjangan  Rp 1.000.000
      # unit  : month
       # link : /undangan/paket/
       paket: Paket Undangan
@@ -16,15 +16,15 @@ pricing:
         - 3 Akun Email
         - 1 Pilihan Tema
         - Free Domain
-        - None
-        - None
         - Unlimited Bandwidth
+        - SSL Encryption
+        
       
     # pricing table loop
     - title : Mini
-      #premi : Premium
-      price : Rp 2.000.000
-      maintain : biaya perpanjangan Rp 1.500.000
+      premi : Rp 4.000.000
+      price : Rp 2.800.000
+      maintain : biaya perpanjangan Rp 1.900.000
       #unit : month
       # link : /undangan/paket/
       paket: Paket Undangan
@@ -33,15 +33,17 @@ pricing:
         - 5 Akun Email
         - 1 Pilihan Tema
         - Free Domain
-        - 1 Subdomain
+        - 2 Subdomain
         - Unlimited Bandwidth
+        - SSL Encryption
+        - Optimasi Website
         - Whatsapp Chat
 
     # pricing table toko online
     - title : Premium
-     # premi : Mini
-      price : Rp 3.000.000
-      maintain : biaya perpanjangan Rp 2.500.000
+      premi : Rp 7.300.000
+      price : Rp 4.500.000
+      maintain : biaya perpanjangan Rp 2.600.000
       # link: /undangan/paket/
       paket: Paket Undangan
       service : 
@@ -49,8 +51,10 @@ pricing:
         - Unlimited Akun Email
         - 2 Pilihan Tema
         - Free Domain
-        - 1 Subdomain
+        - 4 Subdomain
         - Unlimited Bandwith
+        - SSL Encryption
+        - Optimasi Website
         - Whatsapp Chat
 
     # pricing table toko online
@@ -61,11 +65,6 @@ pricing:
       # link: /undangan/paket/
       paket: Paket Undangan
       service :
-        - Space Custom 
-        - Unlimited Akun Email
-        - 3 Pilihan Tema
-        - Free Domain
-        - Unlimited Bandwith
-        - Unlimited Subdomain
-        - WhatsApp Chat Custom
-
+        - Special Custom
+        - Special Custom  
+       
