@@ -80,6 +80,28 @@
 
 <body>
 
+	<div id="myModal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+		  <!-- Modal content-->
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			  <h4 class="modal-title">Lintang &amp; Hadi Wedding</h4>
+			</div>
+			<div class="modal-body">
+			  <p>
+				  Hello
+				  <h3 style='margin-top:-25px;margin-bottom:0px;'>Siti Maryani</h3>	We invite you to attend at our wedding
+			  </p>
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-default" data-dismiss="modal">Open</button>
+			</div>
+		  </div>
+	  
+		</div>
+	  </div>
+
 	<div class="fh5co-loader"></div>
 
 	<div id="page">
@@ -569,45 +591,47 @@
 			<div class="row animate-box">
 				<div class="col-md-10 col-md-offset-1">
 
-					<form class='form-inline' method='post' action='confirm.php'>
-						<input type='hidden' name='id_event' value='247'>
-
-						<div class='form-group' style='display:block; width:100%;'>
-
-							<input type='hidden' name='' value='http://grinvitation.com/lintanghadiwedding'>
-							<input type='name' class='form-control' id='name' placeholder='Name' name='nama' required
-								style='width:100%;'>
-
+					
+					<div style='width:90%; margin-left:5%; margin-right:5%;'>
+						<form class='form-inline' method='post' action='act-wishes'>
+							<input type='hidden' name='id_event' value='247'>
+							
+							<div class='form-group' style='display:block; width:100%;'>
+							
+									<input type='text' class='form-control' id='name' placeholder='Name' disabled value='Siti Maryani' required style='width:100%;'>
+									<input type='hidden' class='form-control' id='name' placeholder='Name' name='nama'  value='Siti Maryani' required style='width:100%;'>
+									<input type='hidden' name='header_link' value='http://grinvitation.com/lintanghadiwedding/si_sitimaryani'>
+									
+							</div>
+							
+								<div style='clear:both;margin-bottom:5px;'></div>
+								<div class='form-group' style='display:block; width:100%;'>
+									<select name='attending' class='form-control' id='attending' required style='width:100%;'>
+										<option value=''>Are You Attending ?</option>
+										<option value='Attending'>Attending</option>
+										<option value='Tentative'>Tentative</option>
+										<option value='Not Attending'>Not Attending</option>
+									</select>
+								</div>
+								<div style='clear:both;margin-bottom:5px;'></div>
+								<div class='form-group' style='display:block; width:100%;'>
+									<select name='person' class='form-control' id='person' required style='width:100%;'>
+										<option value='1'>1 Person</option>
+										<option value='2'>2 Persons</option>
+									</select>
+								</div>
+								
+							
+							<div style='clear:both;margin-bottom:5px;'></div>
+							<div class='form-group'style='display:block; width:100%;'>
+								<textarea class='form-control' id='wishes' placeholder='Wishes' rows='10' name='isi_ucapan' required style='width:100%;'></textarea>
+							</div>
+							<div style='clear:both;margin-bottom:5px;'></div>
+							<div style='width:100%;'>
+								<button type='submit' class='btn btn-block' style='color:white; background-color:#af9e96;'>CONFIRM</button>
+							</div>
+						</form>
 						</div>
-
-						<div style='clear:both;margin-bottom:5px;'></div>
-						<div class='form-group' style='display:block; width:100%;'>
-							<select name='attending' class='form-control' id='attending' required style='width:100%;'>
-								<option value=''>Are You Attending ?</option>
-								<option value='Attending'>Attending</option>
-								<option value='Tentative'>Tentative</option>
-								<option value='Not Attending'>Not Attending</option>
-							</select>
-						</div>
-						<div style='clear:both;margin-bottom:5px;'></div>
-						<div class='form-group' style='display:block; width:100%;'>
-							<select name='person' class='form-control' id='person' required style='width:100%;'>
-								<option value='1'>1 Person</option>
-								<option value='2'>2 Persons</option>
-							</select>
-						</div>
-
-
-						<div style='clear:both;margin-bottom:5px;'></div>
-						<div class='form-group' style='display:block; width:100%;'>
-							<textarea class='form-control' id='wishes' placeholder='Wishes' rows='10' name='isi_ucapan'
-								required style='width:100%;'></textarea>
-						</div>
-						<div style='clear:both;margin-bottom:5px;'></div>
-						<div style='width:100%;'>
-							<button type='submit' class='btn btn-block'>CONFIRM</button>
-						</div>
-					</form>
 					<!-- <form class="form-inline">
 						<div class="col-md-4 col-sm-4">
 							<div class="form-group">
