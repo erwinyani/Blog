@@ -71,6 +71,12 @@ portfolio:
       title : company profile
       content : persusahaan yang bergerak dibidang spring electronics dan automotive!.
 
+    - types : ["development"]
+      image : images/portfolio/bumdesbenah.png
+      URL : #
+      title : company profile
+      content : BUMDes Berkah Amanah!.
+
     - types : ["akademi"]
       image : images/portfolio/man.png
       URL : #
