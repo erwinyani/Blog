@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 baseURL = "https://slahircybertech.com"
-title = "Slahir Technology"
+title = "Slahir Technology | Jasa Pembuatan Website Profesional"
 # post pagination
 paginate = "6"
 # post excerpt
@@ -93,9 +93,9 @@ URL = "plugins/waktu/waktu.js"
 
 ############################# Default Parameters ##########################
 [params]
-#logo = "favicon.png"
+logo = "slahir.png"
 # Meta data
-description = "the best solution for your company profile"
+description = "maksimalkan bisnis anda dengan satu sentuhan"
 author = "erwin aris"
 
 #keywords
@@ -125,7 +125,7 @@ enable = true
 ############################# social icons ##########################
 [[params.social_Icon]]
 icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+link = "https://www.facebook.com/slahircyber.tech/"
 
 [[params.social_Icon]]
 icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
@@ -136,8 +136,8 @@ icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
 link = "#"
 
 [[params.social_Icon]]
-icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+icon = "ti-instagram" # themify icon pack : https://themify.me/themify-icons
+link = "slahir_technology"
 
 [[params.social_Icon]]
 icon = "ti-dribbble" # themify icon pack : https://themify.me/themify-icons
