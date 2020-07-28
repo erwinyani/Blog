@@ -1618,7 +1618,7 @@ input#e-mail,
 }
 
 .social-icon ul li a {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   border: 1px solid transparent;
   display: block;
   height: 70px;
@@ -1626,9 +1626,9 @@ input#e-mail,
   transition: all 400ms ease-out 0s;
 }
 
-.social-icon ul li a:hover {
+/* .social-icon ul li a:hover {
   background: #1c0436;
-}
+} */
 
 .social-icon ul li a:hover i {
   color: #fff;
@@ -2404,14 +2404,19 @@ figcaption {
      class li tambahan footer
     ========================== */
 
-.li-tambahan 
+.li-tambahan ul
 {
+  list-style: decimal;
+}
+
+.li-tambahan h3{
   color: #000;
 }
 
 .li-tambahan a 
 {
-  color: #230844;
+  color: #737f8a;
+  
 }
 
 .li-tambahan a:hover
@@ -2463,6 +2468,13 @@ figcaption {
   }
 }
 
+@media screen and (max-width: 600px)
+{
+  .peta {
+    width: 100px;
+    height: 50px;
+  }
+}
 .harga
 {
   width: auto;

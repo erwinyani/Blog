@@ -2,7 +2,7 @@
 contact:
   enable : true
   title : Contact Us
-  subtitle : Alamat
+  # subtitle : Alamat 
   # content : Marga Agung, Blok D Jati Agung - Lampung Selatan 
   # form_Action: "https://getform.io/f/a7dd7e0b-e862-44d8-9c47-ce191fec88a8" #contact form works with https://formspree.io
   # map:

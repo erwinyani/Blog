@@ -31,6 +31,8 @@ URL = "plugins/slick/slick.css"
 [[params.plugins.js]]
 URL = "plugins/jquery/jquery.min.js"
 [[params.plugins.js]]
+URL = "plugins/jquery/js-jquery.js"
+[[params.plugins.js]]
 URL = "plugins/bootstrap/bootstrap.min.js"
 [[params.plugins.js]]
 URL = "plugins/slick/slick.min.js"
@@ -137,7 +139,7 @@ link = "#"
 
 [[params.social_Icon]]
 icon = "ti-instagram" # themify icon pack : https://themify.me/themify-icons
-link = "slahir_technology"
+link = "https://instagram.com/slahir_technology?igshid=1968ashgbcz9b"
 
 [[params.social_Icon]]
 icon = "ti-dribbble" # themify icon pack : https://themify.me/themify-icons

@@ -5,7 +5,7 @@ service:
   service_Item :
     - icon : images/service/tema1.png # themify icon pack : https://themify.me/themify-icons
       title : Tema
-      content : Tersedia banyak pilihan tema.
+      content : Kami menggunakan cms wordpress dengan banyak pilihan tema.
       
     - icon : images/service/responsive.png # themify icon pack : https://themify.me/themify-icons
       title : Desain Responsif

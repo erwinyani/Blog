@@ -1,7 +1,8 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
 {{"<!-- end Contact Area -->" | safeHTML}}
-<footer id="footer" class="section-bg">
+<footer id="footer" class="section-bg" style="background-color: #1a172e;">
+	<!-- style="background-image: url(images/slide-3.jpg); background-repeat: no-repeat; background-size: cover; opacity: 0.8;" -->
 	<div class="container">
 		<div class="row wow fadeInUp" data-wow-duration="500ms">
 			<div class="col-xl-12">
@@ -10,7 +11,7 @@
 				<div class="social-icon">
 					<ul class="list-inline">
 						{{ range .Site.Params.social_Icon }}
-						<li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+						<li class="list-inline-item"><a href="{{ .link | safeURL }}" target="_blank"><i class="{{ .icon }}"></i></a></li>
 						{{ end }}
 					</ul>
 			</div>
@@ -21,16 +22,7 @@
 						<img src="{{ .Site.Params.pre | absURL }}" alt="sct" />
 					</a> -->
 
-			       		 {{"<!-- FAQ -->" | safeHTML}}
-					<div class="li-tambahan">
-						<ul class="list-inline">
-							<li class="list-inline-item"><a href="{{ "/faq/" | absLangURL }}">FAQ | </a></li>
-							<li class="list-inline-item"><a href="{{ "/syarat/" | absLangURL }}">Syarat dan Ketentuan</a></li>
-						<ul>
-					</div>
-					
-		
-						<p>{{ i18n "copyright" | markdownify }}</p>
+						<p style="color: #fff;">{{ i18n "copyright" | markdownify }}</p>
 					
 				</div>
 			</div>
