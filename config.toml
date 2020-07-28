@@ -31,8 +31,6 @@ URL = "plugins/slick/slick.css"
 [[params.plugins.js]]
 URL = "plugins/jquery/jquery.min.js"
 [[params.plugins.js]]
-URL = "plugins/jquery/js-jquery.js"
-[[params.plugins.js]]
 URL = "plugins/bootstrap/bootstrap.min.js"
 [[params.plugins.js]]
 URL = "plugins/slick/slick.min.js"
