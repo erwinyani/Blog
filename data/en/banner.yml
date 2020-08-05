@@ -1,10 +1,10 @@
 ############################### Banner ################################
 banner:
   enable : true
-  bg_Image : "images/code1.jpg"
+  bg_Image : "images/animate.gif"
   icon : "" # themify icon pack : https://themify.me/themify-icons
   title : "slahir technology"
-  content : "Membangun website dengan mudah, cepat dan ringan"
+  content : "Membangun website dengan cepat dan ringan"
   button:
     enable : true
     label : "Explore Us"

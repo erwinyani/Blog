@@ -84,10 +84,10 @@ URL = "plugins/waktu/waktu.js"
   #URL = "undangan"
   #weight = 6
 
-  [[menu.main]]
-  name = "Contact"
-  URL = "contact"
-  weight = 7
+  #[[menu.main]]
+  #name = "Contact"
+  #URL = "contact"
+  #weight = 7
 
 
 

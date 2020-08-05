@@ -34,7 +34,7 @@ h5,
 h6{
   font-weight: 400;
   font-family:verdana, sans-serif, "Quattrocento Sans", serif;
- /* color: #afbac4; */
+  /* color: #000; */
   color: #737f8a;
 }
 
@@ -2409,7 +2409,7 @@ figcaption {
   list-style: decimal;
 }
 
-.li-tambahan h3{
+.li-tambahan h5{
   color: #000;
 }
 
