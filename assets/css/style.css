@@ -1606,7 +1606,7 @@ input#e-mail,
   Footer section
 ==================================================================*/
 .social-icon {
-  padding: 60px 0 35px;
+  padding-bottom: 0;
 }
 
 .social-icon ul {
@@ -2410,7 +2410,8 @@ figcaption {
 }
 
 .li-tambahan h5{
-  color: #000;
+  color: #ffffff;
+  padding-top: 20px;
 }
 
 .li-tambahan a 

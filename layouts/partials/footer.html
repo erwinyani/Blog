@@ -4,8 +4,58 @@
 <footer id="footer" class="section-bg" style="background-color: #1a172e;">
 	<!-- style="background-image: url(images/slide-3.jpg); background-repeat: no-repeat; background-size: cover; opacity: 0.8;" -->
 	<div class="container">
+		<div class="row">
+
+			{{ if $data.contact.contact.enable }}
+			{{ with $data.contact.contact }}
+
+				{{"<!-- Contact Details -->" | safeHTML}}
+				<div class="contact-info col-md-4 wow fadeInUp li-tambahan" data-wow-duration="500ms">
+					<!-- <h3>{{ .subtitle | markdownify }}</h3> -->
+					<h5>Alamat Lengkap</h5>
+					<p> {{ .content | markdownify }} </p>
+					<div class="contact-details">
+						{{ range .contact_Details }}
+						<div class="con-info clearfix">
+							<i class="{{ .icon }}"></i>
+							<span>{{ .info }}</span>
+						</div>
+						{{ end }}
+					</div>
+				</div>
+
+			{{ end }}
+			{{ end }}	
+
+			<div class="col-md-4 contact-info wow fadeInUp" data-wow-duration="500ms">
+				
+				<div class="li-tambahan">
+					<h5>Developer</h5>
+						<ul>
+							<li><a href="#"> Company Profile</a></li>
+							<li><a href="#"> Toko Online</a></li>
+							<li><a href="#"> Web Akademi</a></li>
+							<li><a href="#"> BUMDes</a></li>
+							<li><a href="#"> LSM</a></li>
+							<li><a href="#"> Web Berita</a></li>
+						</ul>
+				</div>
+			</div>
+
+			<div class="col-md-4 contact-info wow fadeInUp" data-wow-duration="500ms">
+				
+				<div class="li-tambahan">
+					<h5>Tentang kami</h5>
+						<ul>
+							<li><a href="{{ "/tentang-kami/"| absLangURL }}"> Tentang Kami </a></li>
+							<li><a href="{{ "/faq/" | absLangURL }}"> FAQ </a></li>
+							<li><a href="{{ "/syarat/" | absLangURL }}"> Syarat & Ketentuan</a></li>
+						</ul>
+				</div>
+			</div>
+		</div>
 		
-		<div class="row wow fadeInUp" data-wow-duration="500ms">
+		<div class="wow fadeInUp" data-wow-duration="500ms">
 			<div class="col-xl-12">
 
 				{{"<!-- Footer Social Links -->" | safeHTML}}
