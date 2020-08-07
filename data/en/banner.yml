@@ -1,7 +1,7 @@
 ############################### Banner ################################
 banner:
   enable : true
-  bg_Image : "images/bumdes.png"
+  bg_Image : "images/code3.jpg"
   icon : "" # themify icon pack : https://themify.me/themify-icons
   title : "slahir technology"
   content : "Membangun website dengan cepat dan ringan"
