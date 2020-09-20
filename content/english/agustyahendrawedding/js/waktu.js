@@ -1,4 +1,3 @@
-
 Hitung();
 function Hitung() {
 

@@ -30,9 +30,9 @@
 	 -->
 
 	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content="Agustya & Hendra Wedding" />
+	<meta property="og:title" content="Agustya & Hendra Wedding Day" />
 	<!-- gambar harus di compress -->
-	<meta property="og:image" content="https://slahircybertech.com/agustyahendrawedding/images/img/agustyahendra.jpg" />
+	<meta property="og:image" content="https://slahircybertech.com/agustyahendrawedding/images/og-image.jpg" />
 	<meta property="og:url" content="https://slahircybertech.com/agustyahendrawedding/" />
 	<meta property="og:site_name" content="" />
 	<meta property="og:description" content="aula asrama haji, Bandar-Lampung | October 17th, 2020" />
@@ -106,6 +106,17 @@
 		</div>
 	</div>
 
+	<div class="musicleft">
+		<audio loop preload='auto' id="audioMusic">
+			<source src="https://slahircybertech.com/agustyahendrawedding/musik/Beautiful In White - Shane Filan 🎵.mp3">
+		</audio>
+
+		<a onclick="playMusic()" type="button" id='un-mute'><img
+				src='https://slahircybertech.com/agustyahendrawedding/images/music-mute.png' width='30px;'></a>
+		<a onclick="pauseMusic()" type="button" id='mute'><img
+				src='https://slahircybertech.com/agustyahendrawedding/images/music.png' width='30px;'></a>
+	</div>
+
 	<div class="fh5co-loader"></div>
 
 	<div id="page">
@@ -116,38 +127,12 @@
 						<div id="fh5co-logo"><a href="index.html">Wedding.<strong>.</strong></a>
 						</div>
 					</div>
-					<!-- <div class="col-md-6 text-right menu-1">
-						<ul>
-							<li class="active"><a href="index.html">Home</a></li>
-							<li><a href="about.html">Story</a></li>
-							<li class="has-dropdown">
-								<a href="services.html">Services</a>
-								<ul class="dropdown">
-									<li><a href="#">Web Design</a></li>
-									<li><a href="#">eCommerce</a></li>
-									<li><a href="#">Branding</a></li>
-									<li><a href="#">API</a></li>
-								</ul>
-							</li>
-							<li class="has-dropdown">
-								<a href="gallery.html">Gallery</a>
-								<ul class="dropdown">
-									<li><a href="#">HTML5</a></li>
-									<li><a href="#">CSS3</a></li>
-									<li><a href="#">Sass</a></li>
-									<li><a href="#">jQuery</a></li>
-								</ul>
-							</li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-					</div> -->
 				</div>
 
 			</div>
 		</nav>
 
-		<header id="fh5co-header" class="fh5co-cover img-responsive" role="banner"
-			style="background-image:url(images/IMG_2292.jpg);" data-stellar-background-ratio="0.5">
+		<header id="fh5co-header" class="fh5co-cover img-responsive" role="banner" data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row">
@@ -192,7 +177,7 @@
 						<div class="desc-groom">
 							<h3>Agustya Ratna Pratiwi</h3>
 							<span class="font-tambahan"> The Daughter Of</span>
-							<p>Mr. Abduroni (Roni) & Mrs. Turzina Innani (Nani)</p>
+							<p>Mr. Abduroni & Mrs. Turzina Innani</p>
 						</div>
 					</div>
 					<p class="heart text-center"><i class="icon-heart2"></i></p>
@@ -270,8 +255,6 @@
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 						<span>We Love Each Other</span>
 						<h2>Our Story</h2>
-						<!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-							there live the blind texts.</p> -->
 					</div>
 				</div>
 				<div class="row">
@@ -336,23 +319,11 @@
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 						<span>Our Memories</span>
 						<h2>Wedding Gallery</h2>
-						<!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-							there live the blind texts.</p> -->
 					</div>
 				</div>
 				<div class="row row-bottom-padded-md">
 					<div class="col-md-12">
 						<ul id="fh5co-gallery-list">
-
-							<li class="one-third animate-box" data-animate-effect="fadeIn"
-								style="background-image: url(images/IMG_2292.jpg); ">
-								<a href="images/IMG_2292.jpg">
-									<div class="case-studies-summary">
-										<!-- <span>14 Photos</span> -->
-										<!-- <h2>Two Glas of Juice</h2> -->
-									</div>
-								</a>
-							</li>
 							<li class="one-third animate-box" data-animate-effect="fadeIn"
 								style="background-image: url(images/IMG_2247.JPG); ">
 								<a href="images/IMG_2247.JPG" class="color-2">
@@ -461,75 +432,23 @@
 									</div>
 								</a>
 							</li>
+							<li class="one-third animate-box" data-animate-effect="fadeIn"
+								style="background-image: url(images/IMG_2145.JPG); ">
+								<a href="images/IMG_2145.JPG" class="color-6">
+									<div class="case-studies-summary">
+										<!-- <span>56 Photos</span> -->
+										<!-- <h2>Beautiful sunset</h2> -->
+									</div>
+								</a>
+							</li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<!-- <div id="fh5co-counter" class="fh5co-bg fh5co-counter" style="background-image:url(images/img_bg_5.jpg);">
-			<div class="overlay"></div>
+		<div id="fh5co-services">
 			<div class="container">
-				<div class="row">
-					<div class="display-t">
-						<div class="display-tc">
-							<div class="col-md-3 col-sm-6 animate-box">
-								<div class="feature-center">
-									<span class="icon">
-										<i class="icon-users"></i>
-									</span>
-
-									<span class="counter js-counter" data-from="0" data-to="500" data-speed="5000"
-										data-refresh-interval="50">1</span>
-									<span class="counter-label">Estimated Guest</span>
-
-								</div>
-							</div>
-							<div class="col-md-3 col-sm-6 animate-box">
-								<div class="feature-center">
-									<span class="icon">
-										<i class="icon-user"></i>
-									</span>
-
-									<span class="counter js-counter" data-from="0" data-to="1000" data-speed="5000"
-										data-refresh-interval="50">1</span>
-									<span class="counter-label">We Catter</span>
-								</div>
-							</div>
-							<div class="col-md-3 col-sm-6 animate-box">
-								<div class="feature-center">
-									<span class="icon">
-										<i class="icon-calendar"></i>
-									</span>
-									<span class="counter js-counter" data-from="0" data-to="402" data-speed="5000"
-										data-refresh-interval="50">1</span>
-									<span class="counter-label">Events Done</span>
-								</div>
-							</div>
-							<div class="col-md-3 col-sm-6 animate-box">
-								<div class="feature-center">
-									<span class="icon">
-										<i class="icon-clock"></i>
-									</span>
-
-									<span class="counter js-counter" data-from="0" data-to="2345" data-speed="5000"
-										data-refresh-interval="50">1</span>
-									<span class="counter-label">Hours Spent</span>
-
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div> -->
-
-		<!-- testimonials -->
-
-
-		<div id="fh5co-services" class="fh5co-section-gray">
-			<div class="container">
-
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 						<h2>Maps and Video Story</h2>
@@ -569,74 +488,74 @@
 					<span class="container">"Love must be as much a light as it is a flame." -Henry David Thoreau</span>
 				</div>
 			</div>
-
-
 		</div>
 	</div>
 
-	<!-- akhir testimonials -->
+	<!-- testimonials -->
 
 	<!-- friend wishes -->
-	<div id="fh5co-testimonial">
+	<div id="fh5co-testimonial" class="fh5co-section-gray">
 		<div class="container">
-			<div class="row">
-				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<span>Best Wishes</span>
-						<h2>Friends Wishes</h2>
-					</div>
+			<!-- <div class="row"> -->
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<span>Best Wishes</span>
+					<h2>Friends Wishes</h2>
 				</div>
-				<div class="row">
-					<div class="col-md-12 animate-box">
-						<div class="wrap-testimony">
-							<div class="owl-carousel-fullwidth">
-								<div class="item">
-									<div class="testimony-slide active text-center">
-										<figure>
-											<img src="images/couple-1.jpg" alt="user">
-										</figure>
-										<span>Ruslan, via <a href="#" class="twitter">Twitter</a></span>
-										<blockquote>
-											<p>"Far far away, behind the word mountains, far from the countries
-												Vokalia and Consonantia, there live the blind texts. Separated they
-												live in Bookmarksgrove right at the coast of the Semantics"</p>
-										</blockquote>
-									</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 animate-box">
+					<div class="wrap-testimony">
+						<div class="owl-carousel-fullwidth">
+							<div class="item">
+								<div class="testimony-slide active text-center">
+									<figure>
+										<img src="images/couple-1.jpg" alt="user">
+									</figure>
+									<span>Ruslan, via <a href="#" class="twitter">Twitter</a></span>
+									<blockquote>
+										<p>"Far far away, behind the word mountains, far from the countries
+											Vokalia and Consonantia, there live the blind texts. Separated they
+											live in Bookmarksgrove right at the coast of the Semantics"</p>
+									</blockquote>
 								</div>
-								<div class="item">
-									<div class="testimony-slide active text-center">
-										<figure>
-											<img src="images/couple-2.jpg" alt="user">
-										</figure>
-										<span>Hamba Allah, via <a href="#" class="twitter">Twitter</a></span>
-										<blockquote>
-											<p>"Far far away, behind the word mountains, far from the countries
-												Vokalia and Consonantia, at the coast of the Semantics, a large
-												language ocean."</p>
-										</blockquote>
-									</div>
+							</div>
+							<div class="item">
+								<div class="testimony-slide active text-center">
+									<figure>
+										<img src="images/couple-2.jpg" alt="user">
+									</figure>
+									<span>Hamba Allah, via <a href="#" class="twitter">Twitter</a></span>
+									<blockquote>
+										<p>"Far far away, behind the word mountains, far from the countries
+											Vokalia and Consonantia, at the coast of the Semantics, a large
+											language ocean."</p>
+									</blockquote>
 								</div>
-								<div class="item">
-									<div class="testimony-slide active text-center">
-										<figure>
-											<img src="images/couple-3.jpg" alt="user">
-										</figure>
-										<span>Rasyid, via <a href="#" class="twitter">Twitter</a></span>
-										<blockquote>
-											<p>"Far far away, far from the countries Vokalia and Consonantia, there
-												live the blind texts. Separated they live in Bookmarksgrove right at
-												the coast of the Semantics, a large language ocean."</p>
-										</blockquote>
-									</div>
+							</div>
+							<div class="item">
+								<div class="testimony-slide active text-center">
+									<figure>
+										<img src="images/couple-3.jpg" alt="user">
+									</figure>
+									<span>Rasyid, via <a href="#" class="twitter">Twitter</a></span>
+									<blockquote>
+										<p>"Far far away, far from the countries Vokalia and Consonantia, there
+											live the blind texts. Separated they live in Bookmarksgrove right at
+											the coast of the Semantics, a large language ocean."</p>
+									</blockquote>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+			<!-- </div> -->
 		</div>
 	</div>
 	<!-- akhir friend wishes -->
+
+	<!-- akhir testimonials -->
 
 	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/IMG_2247.JPG);">
 		<div class="overlay"></div>
@@ -657,12 +576,11 @@
 
 							<div class='form-group' style='display:block; width:100%;'>
 
-								<input type='text' class='form-control' id='name' placeholder='Name' disabled
-									value='' required style='width:100%;'>
+								<input type='text' class='form-control' id='name' placeholder='Name' disabled value=''
+									required style='width:100%;'>
 								<input type='hidden' class='form-control' id='name' placeholder='Name' name='nama'
 									value='' required style='width:100%;'>
-								<input type='hidden' name='header_link'
-									value='http://grinvitation.com/lintanghadiwedding/si_sitimaryani'>
+								<input type='hidden' name='header_link' value=''>
 
 							</div>
 
@@ -747,7 +665,6 @@
 
 		</div>
 	</footer>
-	</div>
 
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
@@ -781,27 +698,7 @@
 	<script src="js/main.js"></script>
 
 	<script src="js/waktu.js"></script>
-
-	<script>
-		var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
-
-		// default example
-		simplyCountdown('.simply-countdown-one', {
-			year: d.getFullYear(),
-			month: d.getMonth() + 1,
-			day: d.getDate()
-		});
-
-		//jQuery example
-		$('#simply-countdown-losange').simplyCountdown({
-			year: d.getFullYear(),
-			month: d.getMonth() + 1,
-			day: d.getDate(),
-			enableUtc: false
-		});
-	</script>
-
-
+	<script src="js/musicback.js"></script>
 </body>
 
 </html>
