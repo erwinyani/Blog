@@ -1931,23 +1931,7 @@ form label {
 /* .desain
 {
   background-color: #F14E95;
-} */
-
-@media(max-width : 720px)
-{
-  #fh5co-header
-  {
-    background-image:url(https://slahircybertech.com/agustyahendrawedding/images/IMG_22924_background.jpg);						
-  }
-}
-@media(min-width : 720px)
-{
-  #fh5co-header
-  {
-    background-image:url(https://slahircybertech.com/agustyahendrawedding/images/og-image.jpg);						
-  }
-}
-		
+} */		
 		
 .musicleft
 {
