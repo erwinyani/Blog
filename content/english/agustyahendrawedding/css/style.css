@@ -1949,4 +1949,8 @@ form label {
 	z-index: 1;
 			
 }
+
+#invited {
+  text-transform: capitalize;
+}
 	

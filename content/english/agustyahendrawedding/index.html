@@ -85,30 +85,33 @@
 
 	<div id="myModal" class="modal fade" role="dialog">
 		<div class="modal-dialog">
-			<!-- Modal content-->
+
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal">&times;</button>
-					<h4 class="modal-title">Agustya &amp; Hendra Wedding</h4>
+					<h4 class="modal-title">Agustya &amp; Hendra Wedding Day</h4>
 				</div>
 				<div class="modal-body">
-					<p>
-						Hello
-						<h3 style='margin-top:-25px;margin-bottom:0px;'>Siti Maryani</h3> We invite you to attend at our
-						wedding
-					</p>
+					<form>
+						<div class="form-group">
+							<label for="recipient-name" class="col-form-label">We expect you to attend our wedding.</label>
+							<input type="text" class="form-control" id="recipient-name" placeholder="please fill in yor name">
+						</div>
+					</form>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Open</button>
+					<!-- <button id="tombol" type="button" class="btn btn-primary">Save</button> -->
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Save</button>
 				</div>
 			</div>
-
 		</div>
+	</div>
 	</div>
 
 	<div class="musicleft">
 		<audio loop preload='auto' id="audioMusic">
-			<source src="https://slahircybertech.com/agustyahendrawedding/musik/Beautiful In White - Shane Filan 🎵.mp3">
+			<source
+				src="https://slahircybertech.com/agustyahendrawedding/musik/Beautiful In White - Shane Filan 🎵.mp3">
 		</audio>
 
 		<a onclick="playMusic()" type="button" id='un-mute'><img
@@ -132,7 +135,8 @@
 			</div>
 		</nav>
 
-		<header id="fh5co-header" class="fh5co-cover img-responsive" role="banner" data-stellar-background-ratio="0.5" style="background-image: url(images/IMG_2292.jpg);">
+		<header id="fh5co-header" class="fh5co-cover img-responsive" role="banner" data-stellar-background-ratio="0.5"
+			style="background-image: url(images/IMG_2292.jpg);">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row">
@@ -162,7 +166,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box display-tc">
-						<h2 class="font-tambahan">Assalamualaikum Wr. Wb.</h2>
+						<h2 class="font-tambahan">Hello !!</h2>
+						<h2 id="invited"></h2>
 						<!-- <h3>Juli 28th, 2016 New York, USA</h3> -->
 						<p>And of His signs is that He created for you from yourselves mates that you may find
 							tranquillity in them; and He placed between you affection and mercy. Indeed in that are
@@ -263,13 +268,15 @@
 							<li class="animate-box">
 								<div class="timeline-badge rotate-tambahan"
 									style="background-image:url(images/IMG_2022.JPG);"></div>
-								<div class="timeline-panel" style="background-color: #F14E95; opacity: 0.5; color: #ffffff;">
+								<div class="timeline-panel"
+									style="background-color: #F14E95; opacity: 0.5; color: #ffffff;">
 									<div class="timeline-heading">
 										<h3 class="timeline-title" style="color: #ffffff;">First We Meet</h3>
 										<span class="date">2012</span>
 									</div>
 									<div class="timeline-body">
-										<p>This year is the beginning of our introduction as junior and senior in Agribusiness Department, Faculty of Agriculture
+										<p>This year is the beginning of our introduction as junior and senior in
+											Agribusiness Department, Faculty of Agriculture
 											Unila. One year later, to be exact on May 1, 2013 we started dating.
 										</p>
 									</div>
@@ -278,28 +285,32 @@
 							<li class="timeline-inverted animate-box">
 								<div class="timeline-badge rotate-tambahan"
 									style="background-image:url(images/IMG_2145.JPG);"></div>
-								<div class="timeline-panel" style="background-color: #F14E95; opacity: 0.5; color: #ffffff;">
+								<div class="timeline-panel"
+									style="background-color: #F14E95; opacity: 0.5; color: #ffffff;">
 									<div class="timeline-heading">
 										<h3 class="timeline-title" style="color: #ffffff;">In A Relationship</h3>
 										<span class="date">2020</span>
 									</div>
 									<div class="timeline-body">
-										<p>Our relationship continues until this year. Proof of our seriousness and commitment was stated
-											in the form of engagement that was carried out on July 3, 2020. 
+										<p>Our relationship continues until this year. Proof of our seriousness and
+											commitment was stated
+											in the form of engagement that was carried out on July 3, 2020.
 										</p>
 									</div>
 								</div>
 							</li>
 							<li class="animate-box">
 								<div class="timeline-badge" style="background-image:url(images/IMG_1904.jpg);"></div>
-								<div class="timeline-panel" style="background-color: #F14E95; opacity: 0.5; color: #ffffff;">
+								<div class="timeline-panel"
+									style="background-color: #F14E95; opacity: 0.5; color: #ffffff;">
 									<div class="timeline-heading">
 										<h3 class="timeline-title" style="color: #ffffff;">Get Merried</h3>
 										<span class="date">October 17th, 2020</span>
 									</div>
 									<div class="timeline-body">
-										<p>Today is our wedding day. May we always be given happiness in living this household.
-											Accept each other's shortcomings and remind each other in kindness. 
+										<p>Today is our wedding day. May we always be given happiness in living this
+											household.
+											Accept each other's shortcomings and remind each other in kindness.
 										</p>
 									</div>
 								</div>
@@ -670,6 +681,7 @@
 
 	<script src="js/waktu.js"></script>
 	<script src="js/musicback.js"></script>
+	<script src="js/modal.js"></script>
 </body>
 
 </html>
