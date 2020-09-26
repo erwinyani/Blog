@@ -1212,7 +1212,7 @@ form label {
   margin-bottom: 2em;
 }
 .fh5co-heading h2 {
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
@@ -1221,7 +1221,7 @@ form label {
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
-    font-size: 40px;
+    font-size: 20px;
   }
 }
 .fh5co-heading p {
@@ -1953,4 +1953,3 @@ form label {
 #invited {
   text-transform: capitalize;
 }
-	
