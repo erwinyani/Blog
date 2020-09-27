@@ -1897,16 +1897,6 @@ form label {
 	}
 }
 
-/* @media screen and (max-width: 768px) {
-  .contain{
-		height: 50px;
-    width: 100%;
-    font-size: 1em;
-	}
-} */
-
-
-
 @media screen and (max-width: 480px) {
   .contain{
 		height: 50px;
@@ -1931,7 +1921,22 @@ form label {
 /* .desain
 {
   background-color: #F14E95;
-} */		
+} */
+
+/* @media(max-width : 720px)
+{
+	#fh5co-header
+	{
+		background-image:url(https://slahircybertech.com/agustyahendrawedding/background_mobile.jpg);						
+	}
+}
+@media(min-width : 720px)
+{
+	#fh5co-header
+	{
+		background-image:url(https://slahircybertech.com/agustyahendrawedding/desktop.jpg);						
+	}
+} */
 		
 .musicleft
 {
