@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+{{ partial "navigation" . }}
+
+<!-- {{ $data := index .Site.Data .Site.Language.Lang }} -->
+
+{{ if $data.penawaran.penawaran.enable }}
+{{ with $data.penawaran.penawaran }}
+
+<form action="">
+  <input type="text" id="name" placeholder="nama website">
+  <input type="text" id="jenis" placeholder="jenis website">
+  <input type="text" id="alamat" placeholder="alamat perusahaan">
+  <select name="paket" id="paket">
+    <option value="Basic">Basic</option>
+    <option value="Mini">Mini</option>
+    <option value="Premium">Premium</option>
+  </select>
+  <button id="submit">Submit</button>
+</form>
+
+
+{{ end }}
+{{ end }}
+{{ end }}

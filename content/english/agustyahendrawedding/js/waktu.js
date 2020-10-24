@@ -34,5 +34,5 @@ function mulaiHitung(hari, jam, menit, detik, tahun) {
     document.getElementById("hitungmundur2").innerHTML = "" + jam + "<span>HOURS</span>";
     document.getElementById("hitungmundur3").innerHTML = "" + menit + "<span>MINUTES</span>";
     document.getElementById("hitungmundur4").innerHTML = "" + detik + "<span>SECONDS</span>";
-    Hitung();
+    // Hitung();
 }
