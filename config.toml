@@ -1,6 +1,6 @@
 
 ######################## default configuration ####################
-baseURL = "http://slahirtech.com/"
+baseURL = "https://slahirtech.com/"
 languageCode = "en-us"
 languageName = "En"
 # theme = "bigspring"
