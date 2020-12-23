@@ -1,167 +1,149 @@
-################################# Default configuration ###################
-baseURL = "https://slahircybertech.com"
-title = "Slahir Technology | Jasa Pembuatan Website Profesional"
+
+######################## default configuration ####################
+baseURL = "http://slahirtech.com/"
+languageCode = "en-us"
+languageName = "En"
+# theme = "bigspring"
+title = "Slahir Technology"
 # post pagination
-paginate = "6"
+paginate = "3"
 # post excerpt
 summaryLength = "15"
 # disqus short name
 disqusShortname = "" # get your shortname form here : https://disqus.com
-# default content language
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
-# disable language
-disableLanguages = [""]
+# google analytics
+googleAnalytics = "" # example : UA-123-45
+# unsafe html
+[markup.goldmark.renderer]
+unsafe = true
 
-############################# Plugins ##########################
-# css plugins
+############################# Plugins ##############################
+
+# CSS Plugins
 [[params.plugins.css]]
-URL = "plugins/bootstrap/bootstrap.min.css"
+link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
-URL = "plugins/themify-icons/themify-icons.css"
+link = "plugins/themify-icons/themify-icons.css"
 [[params.plugins.css]]
-URL = "plugins/animate-css/animate.css"
-[[params.plugins.css]]
-URL = "plugins/magnific-popup/magnific-popup.css"
-[[params.plugins.css]]
-URL = "plugins/slick/slick.css"
+link = "plugins/slick/slick.css"
 
-
-# js plugins
+# JS Plugins
 [[params.plugins.js]]
-URL = "plugins/jquery/jquery.min.js"
+link = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
-URL = "plugins/bootstrap/bootstrap.min.js"
+link = "plugins/bootstrap/bootstrap.min.js"
 [[params.plugins.js]]
-URL = "plugins/slick/slick.min.js"
-[[params.plugins.js]]
-URL = "plugins/shuffle/shuffle.min.js"
-[[params.plugins.js]]
-URL = "plugins/magnific-popup/jquery.magnific-popup.min.js"
-[[params.plugins.js]]
-URL = "plugins/wow/wow.min.js"
-[[params.plugins.js]]
-URL = "plugins/waktu/waktu.js"
+link = "plugins/slick/slick.min.js"
 
+############################## navigation ###############################
 
+# main menu
+[[menu.main]]
+URL = "blog"
+name = "Blog"
+weight = 1
 
-############################# Navigation ##################################
-[menu]
+[[menu.main]]
+URL = "pricing"
+name = "Paket Harga"
+weight = 2
 
-  [[menu.main]]
-  name = "About Us"
-  URL = "about"
-  weight = 1
+[[menu.main]]
+URL = "contact"
+name = "Kontak"
+weight = 3
 
-  [[menu.main]]
-  name = "Services"
-  URL = "services"
-  weight = 2
+[[menu.main]]
+URL = "faq"
+name = "FAQ"
+weight = 4
 
-  [[menu.main]]
-  name = "Our Clients"
-  URL = "portfolio"
-  weight = 3
+# footer menu left
+[[menu.footer_left]]
+URL = "tentang"
+name = "Tentang Kami"
 
-  [[menu.main]]
-  name = "Team"
-  URL = "team"
-  weight = 4
+[[menu.footer_left]]
+URL = "blog"
+name = "Blog"
 
-  [[menu.main]]
-  name = "Pricing"
-  URL = "pricing"
-  weight = 5
+[[menu.footer_left]]
+URL = "images/pdf/proposal_penawaran.pdf"
+name = "Download Proposal"
 
-  #[[menu.main]]
-  #name = "Blog"
-  #URL = "blog"
-  #weight = 6
- 
+# footer menu middle
+[[menu.footer_middle]]
+URL = "#"
+name = "Company Profile"
 
-  #[[menu.main]]
-  #name = "Undangan"
-  #URL = "undangan"
-  #weight = 6
+[[menu.footer_middle]]
+URL = "#"
+name = "Bumdes"
 
-  #[[menu.main]]
-  #name = "Contact"
-  #URL = "contact"
-  #weight = 7
+[[menu.footer_middle]]
+URL = "#"
+name = "Web Akademi"
 
+# footer menu right
+[[menu.footer_right]]
+URL = "privacy-policy"
+name = "Privacy Policy"
 
+[[menu.footer_right]]
+URL = "terms-conditions"
+name = "Syarat & Ketentuan"
 
-############################# Default Parameters ##########################
+[[menu.footer_right]]
+URL = "faq"
+name = "FAQ"
+
+#################### default parameters ################################
 [params]
-logo = "slahir.png"
+logo = ""
+logo_width = "200px"
 # Meta data
+author = "Themefisher"
 description = "maksimalkan bisnis anda dengan satu sentuhan"
-author = "erwin aris"
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
 
-#keywords
-keywords = "slahir cyber tech, cybertech, jasaweb, jasawebsite, jasaweblampung, website, webmurah"
-# Google Analitycs
-googleAnalitycsID = "Your ID"
-# post share
-postShare = true
-# image
-images = ["/images/logosaya.png"]
+########### footer content ##########
+footer_content = """<i class='ti-location-pin'></i> Blok D Kel. Marga Agung Kec. Jati Agung - Lampung Selatan
+ <br> <i class='ti-location-pin'></i> Jatisari, Lampung - Selatan <br> <i class='ti-mobile'> 088213128081</i> """
+footer_menu_left = "Tentang"
+footer_menu_middle = "Developer"
+footer_menu_right = "Bantuan"
+# copyright
+copyright = "&copy; 2020 Made With <span style='color: #378ae9'>&hearts;</span> By [SlahirTech](https://slahirtech.com/)"
 
-gambar = ["/images/walimah/DSC_0255.JPG"]
-
-# preloader
+# Preloader
 [params.preloader]
-enable = true 
-#preloader = "images/preload.png"
+enable = false 
+preloader = "" # use jpg, png, svg or gif format.
 
+# Navigation buttons
+[params.navigation_button]
+enable = true
+label = "Get Started"
+link = "contact"
 
-#pre = ["/images/preloader.png"]
+############################# social site ########################
+[[params.social]]
+icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
+link = "#" 
+title = "facebook" 
 
+[[params.social]]
+icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
+link = "#" 
+title = "twitter" 
 
+[[params.social]]
+icon = "ti-skype" # themify icon : https://themify.me/themify-icons
+link = "#" 
+title = "skype" 
 
-
-
-
-############################# social icons ##########################
-[[params.social_Icon]]
-icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
-link = "https://www.facebook.com/slahircyber.tech/"
-
-[[params.social_Icon]]
-icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
-link = "#"
-
-[[params.social_Icon]]
-icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
-link = "#"
-
-[[params.social_Icon]]
-icon = "ti-instagram" # themify icon pack : https://themify.me/themify-icons
-link = "https://instagram.com/slahir_technology?igshid=1968ashgbcz9b"
-
-[[params.social_Icon]]
-icon = "ti-dribbble" # themify icon pack : https://themify.me/themify-icons
-link = "#"
-
-[[params.social_Icon]]
-icon = "ti-pinterest" # themify icon pack : https://themify.me/themify-icons
-link = "#"
-
-################################# language ################################
-[Languages]
-
-  ################################ English Language ########################
-  [Languages.en]
-  languageName = "En"
-  languageCode = "en-us"
-  contentDir = "content/english"
-  weight = 1
-  home = "Home"
-
-  ################################ France Language ########################
-#  [Languages.fr]
-#  languageName = "Fr"
-#  languageCode = "fr-fr"
-#  contentDir = "content/french"
-#  weight = 2
-#  home = "Accueil"
+[[params.social]]
+icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
+link = "#" 
+title = "linkedin"

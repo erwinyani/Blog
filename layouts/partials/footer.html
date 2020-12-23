@@ -1,117 +1,61 @@
-{{ $data := index .Site.Data .Site.Language.Lang }}
+<footer class="bg-light section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 mb-5">
+        {{ if site.Menus.footer_left }}
+        <div class="h3 mb-4">{{ site.Params.footer_menu_left }}</div>
+        <ul class="list-unstyled footer-list">
+          {{ range site.Menus.footer_left }}
+          <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        {{ if site.Menus.footer_middle }}
+        <div class="h3 mb-4">{{ site.Params.footer_menu_middle }}</div>
+        <ul class="list-unstyled footer-list">
+          {{ range site.Menus.footer_middle }}
+          <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        {{ if site.Menus.footer_right }}
+        <div class="h3 mb-4">{{ site.Params.footer_menu_right }}</div>
+        <ul class="list-unstyled footer-list">
+          {{ range site.Menus.footer_right }}
+          <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+      <div class="col-md-3 col-sm-6 mb-5">
+        <a class="d-block mb-3" href="{{ site.BaseURL }}"><img width="{{site.Params.logo_width}}" class="img-fluid"
+            src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}"></a>
+        <p class="mb-4">{{ site.Params.footer_content | markdownify }}</p>
 
-{{"<!-- end Contact Area -->" | safeHTML}}
-<footer id="footer" class="section-bg" style="background-color: #1a172e;">
-	<!-- style="background-image: url(images/slide-3.jpg); background-repeat: no-repeat; background-size: cover; opacity: 0.8;" -->
-	<div class="container">
-		<div class="row">
-
-			{{ if $data.contact.contact.enable }}
-			{{ with $data.contact.contact }}
-
-				{{"<!-- Contact Details -->" | safeHTML}}
-				<div class="contact-info col-md-4 wow fadeInUp li-tambahan" data-wow-duration="500ms">
-					<!-- <h3>{{ .subtitle | markdownify }}</h3> -->
-					<h5>Alamat Lengkap</h5>
-					<p> {{ .content | markdownify }} </p>
-					<div class="contact-details">
-						{{ range .contact_Details }}
-						<div class="con-info clearfix">
-							<i class="{{ .icon }}"></i>
-							<span>{{ .info }}</span>
-						</div>
-						{{ end }}
-					</div>
-				</div>
-
-			{{ end }}
-			{{ end }}	
-
-			<div class="col-md-4 contact-info wow fadeInUp" data-wow-duration="500ms">
-				
-				<div class="li-tambahan">
-					<h5>Developer</h5>
-						<ul>
-							<li><a href="#"> Company Profile</a></li>
-							<li><a href="#"> Toko Online</a></li>
-							<li><a href="#"> Web Akademi</a></li>
-							<li><a href="#"> BUMDes</a></li>
-							<li><a href="#"> LSM</a></li>
-							<li><a href="#"> Web Berita</a></li>
-						</ul>
-				</div>
-			</div>
-
-			<div class="col-md-4 contact-info wow fadeInUp" data-wow-duration="500ms">
-				
-				<div class="li-tambahan">
-					<h5>Tentang kami</h5>
-						<ul>
-							<li><a href="{{ "/tentang-kami/"| absLangURL }}"> Tentang Kami </a></li>
-							<li><a href="{{ "/faq/" | absLangURL }}"> FAQ </a></li>
-							<li><a href="{{ "/syarat/" | absLangURL }}"> Syarat & Ketentuan</a></li>
-							<li><a href="/pdf/proposal_penawaran.pdf"> Download Proposal Penawaran</a></li>
-						</ul>
-				</div>
-			</div>
-		</div>
-		
-		<div class="wow fadeInUp" data-wow-duration="500ms">
-			<div class="col-xl-12">
-
-				{{"<!-- Footer Social Links -->" | safeHTML}}
-				<div class="social-icon">
-					<ul class="list-inline">
-						{{ range .Site.Params.social_Icon }}
-						<li class="list-inline-item"><a href="{{ .link | safeURL }}" target="_blank"><i class="{{ .icon }}"></i></a></li>
-						{{ end }}
-					</ul>
-			</div>
-
-				{{"<!-- copyright -->" | safeHTML}}
-					<div class="copyright text-center">
-			<!--		<a href="{{ .Site.BaseURL | absURL }}">
-						<img src="{{ .Site.Params.pre | absURL }}" alt="sct" />
-					</a> -->
-
-						<p style="color: #fff;">{{ i18n "copyright" | markdownify }}</p>
-					
-				</div>
-			</div>
-		</div>
-	</div>
+        {{ if site.Params.social }}
+        <ul class="list-inline social-icons">
+          {{ range site.Params.social }}
+          <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+    </div>
+    <div class="border-top border-default text-center py-4 mt-4">
+      <small class="content">{{ site.Params.Copyright | markdownify }}</small>
+    </div>
+  </div>
 </footer>
-{{"<!-- /footer -->" | safeHTML}}
 
-{{"<!-- Essential Scripts -->" | safeHTML}}
-{{"<!-- Google Map API -->" | safeHTML}}
-{{ $data := index .Site.Data .Site.Language.Lang }}
-{{ if $data.contact.contact.map.enable }}
-<script type="text/javascript"  src="{{ $data.contact.contact.map.gmapAPI | absURL }}"></script>
-{{ end }}
 {{ "<!-- JS Plugins -->" | safeHTML }}
-{{ range .Site.Params.plugins.js}}
-<script src="{{ .URL | absURL }}"></script>
+{{ range site.Params.plugins.js}}
+<script src="{{ .link | absURL }}"></script>
 {{ end }}
+
 {{ "<!-- Main Script -->" | safeHTML }}
 {{ $script := resources.Get "js/script.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
-{{ "<!-- google analitycs -->" | safeHTML }}
-{{ if .Site.Params.googleAnalitycsID }}
-<script>
-  (function (i, s, o, g, r, a, m) {
-    i['GoogleAnalyticsObject'] = r;
-    i[r] = i[r] || function () {
-      (i[r].q = i[r].q || []).push(arguments)
-    }, i[r].l = 1 * new Date();
-    a = s.createElement(o),
-      m = s.getElementsByTagName(o)[0];
-    a.async = 1;
-    a.src = g;
-    m.parentNode.insertBefore(a, m)
-  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-  ga('create', '{{ .Site.Params.googleAnalitycsID }}', 'auto');
-  ga('send', 'pageview');
-</script>
-{{ end }}
-

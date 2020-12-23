@@ -1,0 +1,70 @@
+* .btn-primary 
+{
+    background-color: #378ae9 !important;
+}
+
+.btn-primary:hover
+{
+    background-color: #2376d4 !important;
+}
+
+li a:hover
+{
+    color: #378ae9 !important;
+}
+
+i{
+    color: #378ae9 !important;
+}
+
+.social-icons a
+{
+    border: none;
+}
+
+.social-icons a:hover
+{
+    background-color: #ffffff !important;
+}
+
+.bg-light
+{
+    background-color: #eeeeeee5 !important;
+}
+
+/* li button
+{
+    color: #ff0000;
+} */
+
+.btn-link{
+    color: #378ae9;
+}
+
+.btn-link:hover{
+    color: #2376d4;
+}
+
+.slick-dots li button{
+    border: 1px solid #378ae9;
+}
+
+.slick-dots li.slick-active button
+{
+ background-color: #378ae9;   
+}
+
+
+::selection {
+	background: #378ae9;
+	color: #FFFFFF;
+}
+::-moz-selection {
+	background: #378ae9;
+	color: #FFFFFF;
+}
+
+.btn-primary::before
+{
+    
+}

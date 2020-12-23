@@ -1,43 +1,38 @@
 <head>
-    <meta charset="utf-8">
-    <!--    <meta http-equiv="refresh" content="5">  ini adalah auto refresh-->
-    <title>{{ .Title }}</title>
+  <meta charset="utf-8">
+  <title>{{ .Title }} | Jasa Pembuatan Website Profesional</title>
 
-    {{ "<!-- mobile responsive meta -->" | safeHTML }}
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
-    {{ with .Site.Params.keywords }}<meta name="keywords" content="{{ . }}" />{{ end }}
-    {{ if .IsPage }}
-    {{ with .Params.images }}
-       {{ range first 6 . }}
-         <meta property="og:image" content="{{ . | absURL }}" />
-       {{ end }}
-     {{ end }}
-    {{ else }}
-    {{ with .Site.Params.images }}
-       {{ range first 6 . }}
-         <meta property="og:image" content="{{ . | absURL }}" />
-       {{ end }}
-    {{ end }}
-    {{ end }}
-    {{ with .Site.Params.author }}
-    <meta name="author" content="{{ . }}">{{ end }}
-    <meta name="theme-color" content="#1c0436" />
-    {{ hugo.Generator }}
+  {{ "<!-- mobile responsive meta -->" | safeHTML }}
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  <meta name="description"
+    content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  {{ with site.Params.author }}
+  <meta name="author" content="{{ . }}">{{ end }}
+  {{ hugo.Generator }}
 
-    {{ "<!-- plugins -->" | safeHTML }}
-    {{ range .Site.Params.plugins.css }}
-    <link rel="stylesheet" href="{{ .URL | absURL }} ">
-    {{ end }}
+  {{ "<!-- plugins -->" | safeHTML }}
+  {{ range site.Params.plugins.css }}
+  <link rel="stylesheet" href="{{ .link | absURL }}">
+  {{ end }}
 
-    {{"<!-- Main Stylesheet -->"|safeHTML}}
-    {{ $styles := resources.Get "css/style.css" | minify}}
-    <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+  {{ "<!-- Main Stylesheet -->" | safeHTML }}
+  {{ $style := resources.Get "scss/style.scss" | toCSS | minify }}
+  <link href="{{ $style.Permalink }}" rel="stylesheet" media="screen" />
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Old+Standard+TT&display=swap">
 
-    {{ "<!--Favicon-->" | safeHTML }}
-    <link rel="shortcut icon" href="{{ `favicon.png` | absURL }} " type="image/x-icon">
-    <link rel="icon" href="{{ `favicon.png` | absURL }} " type="image/x-icon">
+
+  {{ "<!--Favicon-->" | safeHTML }}
+  <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
+  <link rel="icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
+
+
+  {{ with .Params.Image }}
+  <meta property="og:image" content="{{ . | absURL }}" />
+  {{ end }}
+  {{ template "_internal/opengraph.html" . }}
+  {{ template "_internal/google_analytics.html" . }}
+  {{ template "_internal/google_analytics_async.html" . }}
+  {{ "<!-- Main Stylesheet -->" | safeHTML }}
+  <link rel="stylesheet" href="css/style.css">
 
 </head>

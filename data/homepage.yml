@@ -1,0 +1,116 @@
+####################### Banner #########################
+banner:
+  title : "<strong><span style='color: #378ae9;'>SLAHIR TECH</span>NOLOGY</strong><br> Jasa Pembuatan Website Profesional"
+  image : "images/banner-art.svg"
+  content : '<strong>"Maksimalkan bisnis anda dengan satu sentuhan"</strong> 
+  <br> Salah satu media online yang dapat kamu andalkan di era digitalisasi atau sekarang lebih dikenal dengan revolusi industri 4.0 adalah <strong><em>Website.</em></strong>'
+  button:
+    enable : true
+    label : "WhatsApps"
+    link : "https://api.whatsapp.com/send?phone=+6288213128081&text=Hi,%20saya%20mau%20buat%20website%20dong%20!!!%20Bagaimana%20caranya%20?"
+
+##################### Feature ##########################
+feature:
+  enable : true
+  title : "Mengapa Slahir Technology?"
+  feature_item:
+    # feature item loop
+    - name : "CMS Wordpress"
+      icon : "ti-palette"
+      content : "cms wordpress mudah untuk dikustomisasi bagi pemula bahkan non IT sekalipun"
+      
+    # feature item loop
+    - name : "Premium"
+      icon : "ti-package"
+      content : "Semua produk dan layanan yang kami berikan premium"
+      
+    # feature item loop
+    - name : "Layanan 24 jam"
+      icon : "ti-alarm-clock"
+      content : "Admin kami selalu siap membantu kapan pun anda mau"
+      
+    # feature item loop
+    - name : "Harga Kompetitif"
+      icon : "ti-money"
+      content : "Harga yang kami tawarkan terbilang cukup murah dan kompetitif"
+      
+    # feature item loop
+    - name : "Optimasi"
+      icon : "ti-stats-up"
+      content : "website yang kami buat selalu dioptimasi dengan baik"
+      
+    # feature item loop
+    - name : "Cloud Hosting"
+      icon : "ti-cloud-up"
+      content : "Cloud host saat ini adalah teknologi yang paling banyak digunakan"
+      
+
+
+######################### Service #####################
+service:
+  enable : true
+  service_item:
+    # service item loop
+    - title : "Portfolio"
+      images:
+      - "images/portfolio/bumdesbenah.png"
+      - "images/portfolio/keum.png"
+      - "images/portfolio/man.png"
+      - "images/portfolio/wedding.png"
+      content : "Beberapa klien kami berasal dari institusi seperti perusahaan, sekolah madrasah dan lembaga swadaya masyarakat."
+      button:
+        enable : true
+        label : "Lihat Utuh"
+        link : "#"
+        
+    # service item loop
+    - title : "Wujudkan impian anda dengan memiliki website mandiri dan profesional"
+      images:
+      - "images/service-1.svg"
+      content : "Kami siap membantu anda untuk memiliki website profesional, desain modern dan responsif untuk dilihat diberbagai device (seperti smartphone dan tablet).
+       <br> Kami juga berpengalaman membangun website company profile, web akademi dan web lembaga swadaya masyarakat." 
+      button:
+        enable : true
+        label : "Lihat Utuh"
+        link : "#"
+        
+    # service item loop
+    - title : "Temukan pengalaman untuk mengendalikan dan mengelola bisnis anda sendiri"
+      images:
+      - "images/service-2.svg"
+      content : "Gak perlu pusing bagaimana memonitor bisnis anda yang selama ini dikelola secara manual,
+      anda akan tetap bisa mengelola website dimanapun anda berada selama smartphone terhubung ke internet."
+      button:
+        enable : true
+        label : "Lihat Utuh"
+        link : "#"
+        
+    # service item loop
+    - title : "Koneksikan dan perkenalkan bisnis anda kepada dunia sekarang!"
+      images:
+      - "images/service-3.svg"
+      content : "Tunjukkan kepada dunia sekarang! bisnis apa yang sedang anda jalankan!<br>
+       Kami akan membantu website tetap online dan bisa diakses diseluruh penjuru dunia."
+      button:
+        enable : true
+        label : "Lihat Utuh"
+        link : "#"
+        
+################### Screenshot ########################
+screenshot:
+  enable : true
+  title : "Pengalaman terbaik kami <br> menjalin kerjasama bersama anda"
+  image : "images/team.svg"
+
+  
+
+##################### Call to action #####################
+call_to_action:
+  enable : true
+  title : "Butuh website custom?"
+  image : "images/cta.svg"
+  content : "Silahkan ajukan penawaran sekarang juga."
+  button:
+    enable : true
+    label : "Custom website"
+    link : "https://api.whatsapp.com/send?phone=+6288213128081&text=Hi,%20saya%20butuh%20website%20full%20custom%20"
