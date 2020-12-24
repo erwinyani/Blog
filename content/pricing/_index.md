@@ -1,11 +1,11 @@
 ---
 title: "Harga"
-subtitle: ""
+subtitle: "<hr>"
 # meta description
 description: "Paket Basic"
 draft: false
 
-basic:
+mini:
   name : "Mini"
   price: "2.000.000"
   price_per : "month"
@@ -23,11 +23,11 @@ basic:
     label : "Pesan Sekarang"
     link : "https://api.whatsapp.com/send?phone=+6288213128081&text=Hi,%20saya%20mau%20buat%20website%20dong%20!!!%20Bagaimana%20caranya%20?"
     
-professional:
+medium:
   name : "Medium"
   price: "3.000.00"
   price_per : "month"
-  info : "<strong>Paling Miminati</strong>"
+  info : "<strong><span style='color: #0aa8a7'>Paling Diminati</span></strong>"
   services:
     - Space 2 GB
     - 5 Akun Email
@@ -43,7 +43,7 @@ professional:
     label : "Pesan Sekarang"
     link : "https://api.whatsapp.com/send?phone=+6288213128081&text=Hi,%20saya%20mau%20buat%20website%20dong%20!!!%20Bagaimana%20caranya%20?"
     
-business:
+premium:
   name : "Premium"
   price: "5.500.000"
   price_per : "month"

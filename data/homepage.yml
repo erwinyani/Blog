@@ -37,7 +37,7 @@ feature:
     # feature item loop
     - name : "Optimasi"
       icon : "ti-stats-up"
-      content : "website yang kami buat selalu dioptimasi dengan baik"
+      content : "Website yang kami buat selalu dioptimasi dengan baik"
       
     # feature item loop
     - name : "Cloud Hosting"
@@ -86,7 +86,7 @@ service:
         link : "#"
         
     # service item loop
-    - title : "Koneksikan dan perkenalkan bisnis anda kepada dunia sekarang!"
+    - title : "Koneksikan dan perkenalkan bisnis anda melalui website"
       images:
       - "images/service-3.svg"
       content : "Tunjukkan kepada dunia sekarang! bisnis apa yang sedang anda jalankan!<br>

@@ -1,7 +1,7 @@
 ---
-title: "Latest News"
-subtitle: ""
+title: "Berita Terbaru"
+subtitle: "<hr>"
 # meta description
-description: "This is meta description"
+description: "berita terbaru"
 draft: false
 ---

@@ -1,4 +1,4 @@
-* .btn-primary 
+.btn-primary 
 {
     background-color: #378ae9 !important;
 }
@@ -64,7 +64,3 @@ i{
 	color: #FFFFFF;
 }
 
-.btn-primary::before
-{
-    
-}
