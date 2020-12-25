@@ -106,9 +106,13 @@ name = "FAQ"
 [params]
 logo = ""
 logo_width = "200px"
+
+# subtitle
+subtitle = "Maksimalkan Bisnis Anda Dengan Satu Sentuhan"
+
 # Meta data
 author = "Erwin Aris Prayogo"
-description = "maksimalkan bisnis anda dengan satu sentuhan"
+description = "Jasa Pembuatan Website Profesional Sekaligus Partner Terbaik Untuk Menunjang Bisnis Anda"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 
