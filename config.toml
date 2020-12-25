@@ -4,7 +4,7 @@ baseURL = "https://slahirtech.com/"
 languageCode = "en-us"
 languageName = "En"
 # theme = "bigspring"
-title = "Slahir Technology"
+title = "Slahir Technology | Maksimalkan Bisnis Anda Dengan Satu Sentuhan"
 # post pagination
 paginate = "3"
 # post excerpt
@@ -104,11 +104,11 @@ name = "FAQ"
 
 #################### default parameters ################################
 [params]
-logo = ""
+logo = "images/logo.svg"
 logo_width = "200px"
 
 # subtitle
-subtitle = "Maksimalkan Bisnis Anda Dengan Satu Sentuhan"
+subtitle = ""
 
 # Meta data
 author = "Erwin Aris Prayogo"
