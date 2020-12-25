@@ -11,9 +11,14 @@ description: "tawk to adalah layanan live chat gratis untuk website anda"
 draft: false
 ---
 
-jika anda ingin website tampil beda dengan layanan live chat yang gratisan dengan fitur lengkap? [tawk.to](https://www.tawk.to/) jawabanya. 
+jika kamu ingin website tampil beda dengan layanan live chat yang gratisan dengan fitur super lengkap? [tawk.to](https://www.tawk.to/) jawabanya. 
 
-**kenapa?**
+**Kenapa?**
+
+>**Karena Gratis! hahaha** eits gratisan bukan berarti murahan loh ya. jika maindset mu seperti itu berarti kamu harus lebih banyak lagi belajar tentang **OpenSource**. 
+
+integrasi ke website atau blog juga cukup mudah dan simple menurut saya dan kamu bisa membaca sendiri di website tawk.to kenapa live chat ini benar - benar gratis selamanya [disini](https://www.tawk.to/why-free/).
+
 
 
 
