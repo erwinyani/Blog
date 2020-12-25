@@ -112,6 +112,13 @@ description = "maksimalkan bisnis anda dengan satu sentuhan"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 
+# og:image
+images = ["/images/slahirtech.png"]
+
+# keywords
+#keywords
+keywords = "slahir cyber tech, cybertech, slahir technology, jasaweb, jasawebsite, jasaweblampung, website, webmurah"
+
 ########### footer content ##########
 footer_content = """<i class='ti-location-pin'></i> Blok D Kel. Marga Agung Kec. Jati Agung - Lampung Selatan
  <br> <i class='ti-location-pin'></i> Jatisari, Lampung - Selatan <br> <i class='ti-mobile'> 088213128081</i> """

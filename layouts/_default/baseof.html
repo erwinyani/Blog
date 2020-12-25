@@ -3,14 +3,20 @@
 {{- partial "head.html" . -}}
 
 <body>
-	<div style="position:fixed; left:5px; bottom:10px; z-index: 9999;">
-		<a
-			href="https://api.whatsapp.com/send?phone=+6288213128081&text=Hi,%20saya%20mau%20buat%20website%20dong%20!!!%20Bagaimana%20caranya%20?">
+	<!--Start of Tawk.to Script-->
+	<script type="text/javascript">
+		var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+		(function () {
+			var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+			s1.async = true;
+			s1.src = 'https://embed.tawk.to/5fe52a68a8a254155ab630bd/1eqbirb2c';
+			s1.charset = 'UTF-8';
+			s1.setAttribute('crossorigin', '*');
+			s0.parentNode.insertBefore(s1, s0);
+		})();
+	</script>
+	<!--End of Tawk.to Script-->
 
-
-			<img style="height: 85px; width: 100px; animation: infinite;" src="/images/Wa.png">
-		</a>
-	</div>
 	{{- partial "preloader.html" . -}}
 	{{- partial "header.html" . -}}
 	{{- block "main" . }}{{- end }}
