@@ -6,7 +6,7 @@ banner:
   <br> Salah satu media online yang dapat kamu andalkan di era digitalisasi saat ini adalah<strong><em>Website.</em></strong><br>Kami sebagai jasa pembuatan website profesional sekaligus partner terbaik untuk menunjang bisnis anda.'
   button:
     enable : true
-    label : "WhatsApps"
+    label : "WhatsApp"
     link : "https://api.whatsapp.com/send?phone=+6288213128081&text=Hi,%20saya%20mau%20buat%20website%20dong%20!!!%20Bagaimana%20caranya%20?"
 
 ##################### Feature ##########################
