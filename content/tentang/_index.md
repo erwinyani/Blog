@@ -6,7 +6,7 @@ description: "platform jasa pembuatan dan pengembangan website menggunakan CMS W
 draft: false
 ---
 
-**_"Maksimalkan Bisnis Anda Dengan Satu Sentuhan"_** merupakan motto kami untuk membantu anda yang mempunyai bisnis atau usaha dan ingin dikenal diseluruh dunia.
+**_"Maksimalkan Bisnis Anda Dengan Satu Sentuhan"_** merupakan tagline kami untuk membantu anda yang mempunyai bisnis atau usaha dan ingin dikenal diseluruh dunia.
 
 **Slahir Technology** adalah platform jasa pembuatan dan pengembangan website menggunakan CMS Wordpress yang banyak dipakai oleh perusahaan - perusahaan besar didunia.
 

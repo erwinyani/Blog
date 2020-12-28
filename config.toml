@@ -151,7 +151,7 @@ title = "facebook"
 
 [[params.social]]
 icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-link = "#" 
+link = "//twitter.com/share?url={{ .Permalink }}&amp;text={{ .Title }}&amp;via={{ .Site.Social.twitter }}" 
 title = "twitter" 
 
 [[params.social]]
