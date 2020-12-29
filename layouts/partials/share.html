@@ -25,21 +25,12 @@
         <li>
             <a href="//twitter.com/share?url={{ .Permalink }}&amp;text={{ .Title }}&amp;via={{ .Site.Social.twitter }}"
                 target="_blank" class="share-btn twitter">
-                <i class="ti-twitter"></i>
+                <i class="ti-twitter-alt"></i>
                 <!-- <p>Twitter</p> -->
             </a>
         </li>
         {{ end }}
 
-        <!-- Google Plus -->
-        {{ if .Site.Params.socialShareGoogleplus | default true}}
-        <li>
-            <a href="//plus.google.com/share?url={{ .Permalink }}" target="_blank" class="share-btn google-plus">
-                <i class="ti-google-plus"></i>
-                <!-- <p>Google+</p> -->
-            </a>
-        </li>
-        {{ end }}
 
         <!-- Facebook -->
         {{ if .Site.Params.socialShareFacebook | default true}}
@@ -76,11 +67,11 @@
         {{ end }}
 
         <!-- StumbleUpon -->
-        {{ if .Site.Params.socialShareStumbleupon | default true}}
+        {{ if .Site.Params.socialShareSharethis | default true}}
         <li>
-            <a href="//www.stumbleupon.com/submit?url={{ .Permalink }}&amp;title={{ .Title }}" target="_blank"
-                class="share-btn stumbleupon">
-                <i class="ti-stumbleupon"></i>
+            <a href="whatsapp://send?text={{ .Permalink }}&amp;title={{ .Title }}" target="_blank"
+                class="share-btn whatsapp">
+                <i class="ti-sharethis-alt"></i>
                 <!-- <p>StumbleUpon</p> -->
             </a>
         </li>

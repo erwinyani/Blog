@@ -27,7 +27,7 @@ medium:
   name : "Medium"
   price: "3.000.00"
   price_per : "month"
-  info : "<strong><span style='color: #0aa8a7'>Paling Diminati</span></strong>"
+  info : "<strong><span style='color: #0aa8a7'>Company Profile</span></strong>"
   services:
     - Space 2 GB
     - 5 Akun Email

@@ -1,12 +1,14 @@
 ---
 title: "Layanan live chat gratis menggunakan tawk.to"
 date: 2020-04-18T10:07:21+06:00
-# post image
+# post untuk og:image
+images: ["/images/blog/tawkto1.png"]
+# image harus ditulis 
 image: "/images/blog/tawkto1.png"
 # post type (regular/featured)
 type: "featured"
 # meta description
-description: "tawk to adalah layanan live chat gratis untuk website anda"
+description: "tawk.to adalah layanan live chat gratis untuk website kamu"
 # post draft
 draft: false
 ---

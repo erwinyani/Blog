@@ -52,11 +52,11 @@
   </div>
 </footer>
 
-{{ "<!-- JS Plugins -->" | safeHTML }}
+
 {{ range site.Params.plugins.js}}
 <script src="{{ .link | absURL }}"></script>
 {{ end }}
 
-{{ "<!-- Main Script -->" | safeHTML }}
+
 {{ $script := resources.Get "js/script.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>

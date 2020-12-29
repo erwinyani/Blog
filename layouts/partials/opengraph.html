@@ -1,0 +1,15 @@
+{{ with .Site.Params.keywords }}
+<meta name="keywords" content="{{ . }}" />{{ end }}
+{{ if .IsPage }}
+{{ with .Params.images }}
+{{ range first 6 . }}
+<meta property="og:image" content="{{ . | absURL }}" />
+{{ end }}
+{{ end }}
+{{ else }}
+{{ with .Site.Params.images }}
+{{ range first 6 . }}
+<meta property="og:image" content="{{ . | absURL }}" />
+{{ end }}
+{{ end }}
+{{ end }}

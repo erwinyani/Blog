@@ -146,7 +146,7 @@ link = "contact"
 ############################# social site ########################
 [[params.social]]
 icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-link = "#" 
+link = "//www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" 
 title = "facebook" 
 
 [[params.social]]
@@ -161,5 +161,5 @@ title = "skype"
 
 [[params.social]]
 icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
-link = "#" 
+link = "//www.linkedin.com/shareArticle?url={{ .Permalink }}&amp;title={{ .Title }}" 
 title = "linkedin"
