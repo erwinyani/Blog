@@ -10,6 +10,7 @@
         <img src="{{ .Params.image | absURL }}" alt="{{ .Title }}" class="img-fluid w-100 rounded mb-4">
         <h2 class="mb-4">{{ .Title }}</h2>
         <div class="content">{{.Content}}</div>
+        {{ partial "share.html" . }}
 
         <!-- comments -->
         {{ if site.DisqusShortname }}
@@ -20,7 +21,6 @@
       </div>
     </div>
   </div>
-  {{ partial "share.html" . }}
 </section>
 
 <!-- regular page -->
@@ -34,6 +34,7 @@
       </div>
     </div>
   </div>
+  {{ partial "share.html" . }}
 </section>
 {{ end }}
 
