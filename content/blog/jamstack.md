@@ -1,10 +1,10 @@
 ---
 title: "Pengertian dan Istilah JAMstack?"
-date: 2020-04-18T10:07:21+06:00
+date: 2021-01-04T10:07:21+06:00
 # post untuk og:image
-images: ["/images/blog/jamstack.svg"]
+images: ["/images/blog/jamstack.png"]
 # image harus ditulis 
-image: "/images/blog/jamstack.svg"
+image: "/images/blog/jamstack.png"
 # post type (regular/featured)
 type: "featured"
 # meta description
