@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1000mm"
+   height="600mm"
+   viewBox="0 0 1000 600"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="jamstack.svg">
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect4786"
+       is_visible="true"
+       steps="1"
+       threshold="0.0292308"
+       smooth_angles="360"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false"
+       simplifyindividualpaths="false"
+       simplifyJustCoalesce="false" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.12374369"
+     inkscape:cx="1744.8477"
+     inkscape:cy="1362.6828"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:object-nodes="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="709"
+     inkscape:window-x="0"
+     inkscape:window-y="31"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,303)">
+    <rect
+       style="opacity:1;fill:#0e182a;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.02892564"
+       id="rect4747"
+       width="1000"
+       height="600"
+       x="2.1551962"
+       y="-300.52731" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:83.57162476px;line-height:1.25;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.30580664"
+       x="205.9826"
+       y="-30.578463"
+       id="text4751"
+       transform="scale(0.99014763,1.0099504)"><tspan
+         sodipodi:role="line"
+         id="tspan4749"
+         x="205.9826"
+         y="-30.578463"
+         style="fill:#ffffff;stroke-width:1.30580664">JAMstack</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36.11302567px;line-height:1.25;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';letter-spacing:0px;word-spacing:0px;fill:#aa0088;fill-opacity:1;stroke:none;stroke-width:0.56426603"
+       x="133.23193"
+       y="117.45325"
+       id="text4755"
+       transform="scale(0.99014763,1.0099504)"><tspan
+         sodipodi:role="line"
+         id="tspan4753"
+         x="133.23193"
+         y="117.45325"
+         style="fill:#aa0088;stroke-width:0.56426603">JavaScript</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.90166473px;line-height:1.25;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';letter-spacing:0px;word-spacing:0px;fill:#aa0088;fill-opacity:1;stroke:none;stroke-width:0.60783851"
+       x="241.64023"
+       y="-176.66336"
+       id="text4755-3"
+       transform="scale(0.99014763,1.0099504)"><tspan
+         sodipodi:role="line"
+         id="tspan4753-6"
+         x="241.64023"
+         y="-176.66336"
+         style="fill:#aa0088;stroke-width:0.60783851">APIs</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40.05677032px;line-height:1.25;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';letter-spacing:0px;word-spacing:0px;fill:#aa0088;fill-opacity:1;stroke:none;stroke-width:0.62588704"
+       x="286.71622"
+       y="66.670486"
+       id="text4755-7"
+       transform="scale(0.99014763,1.0099504)"><tspan
+         sodipodi:role="line"
+         id="tspan4753-5"
+         x="286.71622"
+         y="66.670486"
+         style="fill:#aa0088;stroke-width:0.62588704">Markup</tspan></text>
+    <path
+       style="opacity:1;fill:#d40055;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.00480772"
+       d="m 281.73236,-97.214122 v -38.034058 h -12.83353 l 19.17442,-27.63773 19.17442,27.63773 h -12.25898 v 38.034058 z"
+       id="path4798"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;fill:#d40055;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.00480772"
+       d="m 220.17135,-25.325612 v 64.531781 h -17.33163 l 25.89499,46.892473 25.89498,-46.892473 h -16.55571 v -64.531781 z"
+       id="path4798-3"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;fill:#d40055;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.00480772"
+       d="M 356.17755,-24.383642 V 9.5965893 H 346.8232 L 360.79943,34.288539 374.77566,9.5965893 h -8.93557 V -24.383642 Z"
+       id="path4798-5"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.76345825px;line-height:1.25;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';letter-spacing:0px;word-spacing:0px;fill:#37abc8;fill-opacity:1;stroke:none;stroke-width:0.54317904"
+       x="673.27582"
+       y="181.5611"
+       id="text4755-3-6"
+       transform="scale(0.99014763,1.0099504)"><tspan
+         sodipodi:role="line"
+         id="tspan4753-6-2"
+         x="673.27582"
+         y="181.5611"
+         style="fill:#37abc8;stroke-width:0.54317904">Hugo</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.76345825px;line-height:1.25;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';letter-spacing:0px;word-spacing:0px;fill:#00d455;fill-opacity:1;stroke:none;stroke-width:0.54317904"
+       x="594.92688"
+       y="-205.18301"
+       id="text4755-3-9"
+       transform="scale(0.99014763,1.0099504)"><tspan
+         sodipodi:role="line"
+         id="tspan4753-6-1"
+         x="594.92688"
+         y="-205.18301"
+         style="fill:#00d455;stroke-width:0.54317904">Next.js</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.76345825px;line-height:1.25;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';letter-spacing:0px;word-spacing:0px;fill:#800080;fill-opacity:1;stroke:none;stroke-width:0.54317904"
+       x="548.25092"
+       y="229.90399"
+       id="text4755-3-2"
+       transform="scale(0.99014763,1.0099504)"><tspan
+         sodipodi:role="line"
+         id="tspan4753-6-7"
+         x="548.25092"
+         y="229.90399"
+         style="fill:#800080;stroke-width:0.54317904">Gatsby</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.76345825px;line-height:1.25;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';letter-spacing:0px;word-spacing:0px;fill:#6f917c;fill-opacity:1;stroke:none;stroke-width:0.54317904"
+       x="713.28381"
+       y="109.87997"
+       id="text4755-3-0"
+       transform="scale(0.99014763,1.0099504)"><tspan
+         sodipodi:role="line"
+         id="tspan4753-6-9"
+         x="713.28381"
+         y="109.87997"
+         style="fill:#6f917c;stroke-width:0.54317904">Jekyll</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.76345825px;line-height:1.25;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';letter-spacing:0px;word-spacing:0px;fill:#afc6e9;fill-opacity:1;stroke:none;stroke-width:0.54317904"
+       x="808.30286"
+       y="188.22906"
+       id="text4755-3-3"
+       transform="scale(0.99014763,1.0099504)"><tspan
+         sodipodi:role="line"
+         id="tspan4753-6-6"
+         x="808.30286"
+         y="188.22906"
+         style="fill:#afc6e9;stroke-width:0.54317904">Hexo</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.76345825px;line-height:1.25;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.54317904"
+       x="751.62488"
+       y="48.201057"
+       id="text4755-3-06"
+       transform="scale(0.99014763,1.0099504)"><tspan
+         sodipodi:role="line"
+         id="tspan4753-6-26"
+         x="751.62488"
+         y="48.201057"
+         style="fill:#0000ff;stroke-width:0.54317904">GITBook</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.76345825px;line-height:1.25;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';letter-spacing:0px;word-spacing:0px;fill:#ffd5f6;fill-opacity:1;stroke:none;stroke-width:0.54317904"
+       x="761.62695"
+       y="-60.153946"
+       id="text4755-3-1"
+       transform="scale(0.99014763,1.0099504)"><tspan
+         sodipodi:role="line"
+         id="tspan4753-6-8"
+         x="761.62695"
+         y="-60.153946"
+         style="fill:#ffd5f6;stroke-width:0.54317904">VuePress</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.76345825px;line-height:1.25;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';letter-spacing:0px;word-spacing:0px;fill:#aa8800;fill-opacity:1;stroke:none;stroke-width:0.54317904"
+       x="734.9549"
+       y="-136.83595"
+       id="text4755-3-7"
+       transform="scale(0.99014763,1.0099504)"><tspan
+         sodipodi:role="line"
+         id="tspan4753-6-92"
+         x="734.9549"
+         y="-136.83595"
+         style="fill:#aa8800;stroke-width:0.54317904">Nuxt</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.76345825px;line-height:1.25;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';letter-spacing:0px;word-spacing:0px;fill:#ccff00;fill-opacity:1;stroke:none;stroke-width:0.54317904"
+       x="721.55042"
+       y="-9.9317713"
+       id="text4755-3-06-0"
+       transform="scale(0.99014763,1.0099504)"><tspan
+         sodipodi:role="line"
+         id="tspan4753-6-26-2"
+         x="721.55042"
+         y="-9.9317713"
+         style="fill:#ccff00;stroke-width:0.54317904">Docusaurus</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.76345825px;line-height:1.25;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';letter-spacing:0px;word-spacing:0px;fill:#aa0044;fill-opacity:1;stroke:none;stroke-width:0.54317904;"
+       x="800.24219"
+       y="-186.9697"
+       id="text4755-3-7-3"
+       transform="scale(0.99014763,1.0099504)"><tspan
+         sodipodi:role="line"
+         id="tspan4753-6-92-6"
+         x="800.24219"
+         y="-186.9697"
+         style="fill:#aa0044;stroke-width:0.54317904;">11ty</tspan></text>
+  </g>
+</svg>

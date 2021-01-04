@@ -56,7 +56,7 @@ service:
       - "images/portfolio/bumdesbenah.png"
       - "images/portfolio/keum.png"
       - "images/portfolio/man.png"
-      - "images/portfolio/wedding.png"
+      # - "images/portfolio/wedding.png"
       content : "Beberapa klien kami berasal dari institusi seperti perusahaan, sekolah madrasah dan lembaga swadaya masyarakat."
       button:
         enable : true
@@ -89,7 +89,7 @@ service:
     - title : "Koneksikan dan perkenalkan bisnis anda melalui website"
       images:
       - "images/service-3.svg"
-      content : "Tunjukkan kepada dunia sekarang! bisnis apa yang sedang anda jalankan!<br>
+      content : "Jangan ragu untuk memiliki website sendiri, melalui media online seperti website maka akan banyak orang mengenal dan lebih terlihat profesional.<br>
        Kami akan membantu website tetap online dan bisa diakses diseluruh penjuru dunia."
       button:
         enable : true
