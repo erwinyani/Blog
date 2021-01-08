@@ -1,5 +1,5 @@
 ---
-title: "Pengertian dan Istilah JAMstack?"
+title: "Pengertian dan istilah JAMstack?"
 date: 2021-01-04T10:07:21+06:00
 # post untuk og:image
 images: ["/images/blog/jamstack.png"]
