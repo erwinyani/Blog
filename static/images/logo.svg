@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="167.15944"
+     inkscape:cx="174.82677"
      inkscape:cy="-34.498795"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -70,18 +70,18 @@
          id="tspan4889-7-1-2-3-5-7" /></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.46501589px;line-height:1.25;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';letter-spacing:0px;word-spacing:0px;fill:#378ae9;fill-opacity:0.85098039;stroke:none;stroke-width:0.08539087"
-       x="39.985073"
-       y="283.28546"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35104275px;line-height:1.25;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';letter-spacing:0px;word-spacing:0px;fill:#378ae9;fill-opacity:0.85098039;stroke:none;stroke-width:0.09923504"
+       x="38.328781"
+       y="283.48596"
        id="text4770"><tspan
          sodipodi:role="line"
          id="tspan4768"
-         x="39.985073"
-         y="283.28546"
-         style="fill:#378ae9;fill-opacity:0.85098039;stroke-width:0.08539087">Slahir Tech</tspan></text>
+         x="38.328781"
+         y="283.48596"
+         style="fill:#378ae9;fill-opacity:0.85098039;stroke-width:0.09923504">Slahir Tech</tspan></text>
     <path
        style="opacity:1;fill:#378ae9;fill-opacity:0.85098039;stroke:#00004a;stroke-width:0;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0"
-       d="m 32.054134,275.52094 -4.950167,5.26314 1.755198,2.09881 0.888482,-0.94465 -0.941638,-1.12601 4.061591,-4.31842 1.97012,0.0325 0.888458,-0.94466 z m 5.097084,4.29492 -0.888529,0.94469 0.941568,1.12598 -4.061615,4.31846 -1.969956,-0.0326 -0.888503,0.94464 3.671995,0.0607 4.950144,-5.26314 z"
+       d="m 29.112024,274.4626 -5.752723,6.11644 2.039763,2.43908 1.032529,-1.0978 -1.094303,-1.30857 4.720085,-5.01855 2.289529,0.0378 1.032501,-1.09782 z m 5.923459,4.99124 -1.032584,1.09785 1.094222,1.30853 -4.720113,5.0186 -2.289339,-0.0379 -1.032553,1.09779 4.267325,0.0705 5.752696,-6.11644 z"
        id="path4918-6-0-3-3"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="24.5"
@@ -89,9 +89,9 @@
        inkscape:export-filename="/home/erwin/Documents/slahir/slahirtech/static/images/favicon.png" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.30199313px;line-height:1.25;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:1;fill:#378ae9;fill-opacity:0.85098039;stroke:none;stroke-width:0.03254982"
-       x="26.369921"
-       y="348.46628"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.51308143px;line-height:1.25;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:1;fill:#378ae9;fill-opacity:0.85098039;stroke:none;stroke-width:0.03782703"
+       x="24.081127"
+       y="348.26315"
        id="text4887-2-2-6-6-6"
        transform="scale(1.2399245,0.80650072)"
        inkscape:export-xdpi="24.5"
@@ -99,13 +99,13 @@
        inkscape:export-filename="/home/erwin/Documents/slahir/slahirtech/static/images/favicon.png"><tspan
          sodipodi:role="line"
          id="tspan4885-1-6-3-75-7"
-         x="26.602421"
-         y="348.46628"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';text-align:center;text-anchor:middle;fill:#378ae9;fill-opacity:0.85098039;stroke-width:0.03254982">SLAHIR </tspan><tspan
+         x="24.333799"
+         y="348.26315"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';text-align:center;text-anchor:middle;fill:#378ae9;fill-opacity:0.85098039;stroke-width:0.03782703">SLAHIR </tspan><tspan
          sodipodi:role="line"
-         x="26.369921"
-         y="350.20663"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';text-align:center;text-anchor:middle;fill:#378ae9;fill-opacity:0.85098039;stroke-width:0.03254982"
+         x="24.081127"
+         y="350.15451"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';text-align:center;text-anchor:middle;fill:#378ae9;fill-opacity:0.85098039;stroke-width:0.03782703"
          id="tspan4889-7-1-2-3-5">TECH</tspan></text>
   </g>
 </svg>

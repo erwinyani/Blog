@@ -11,6 +11,8 @@ type: "featured"
 description: "Membuat website elegan tanpa koding tinggal _drag and drop_ menggunakan Page Builder"
 # post draft
 draft: false
+
+author: erwin
 ---
 
 Membuat website elegan tanpa koding tinggal _drag and drop_ menggunakan **Page Builder**.
@@ -25,7 +27,7 @@ secara umum pengertian page builder adalah perangkat lunak atau alat untuk memba
 
 #### Beberapa page builder alternatif webflow?
 
-Banyak sekali web builder di internet, kamu bisa googling saja. Beberapa diantaranya di bawah ini:
+Banyak sekali web builder yang bisa dijadikan referensi di internet, kamu bisa googling saja. Beberapa diantaranya di bawah ini:
 
 1. Wix.com
 2. WebNode.com
@@ -37,4 +39,4 @@ Banyak sekali web builder di internet, kamu bisa googling saja. Beberapa diantar
 
 #### Kesimpulan
 
-Nah, kamu searching saja ingin menggunakan platform yang mana? tapi ingat! untuk membuat website yang kompleks kamu perlu belajar koding dan paham bahasa pemrograman. Setiap platform ada kekurangan dan kelebihan masing - masing, diatas hanya sebuah alat untuk mempercepat dan mempermudah membuat website.
+Nah, kamu bisa searching saja ingin menggunakan platform yang mana? tapi ingat! untuk membuat website yang kompleks kamu perlu belajar koding dan paham bahasa pemrograman. Setiap platform ada kekurangan dan kelebihan masing - masing, diatas hanya sebuah alat untuk mempercepat dan mempermudah membuat website.

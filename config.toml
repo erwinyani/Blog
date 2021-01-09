@@ -53,54 +53,63 @@ URL = "tentang"
 name = "Tentang Kami"
 weight = 3
 
-[[menu.main]]
-URL = "contact"
-name = "Kontak"
-weight = 4
+# [[menu.main]]
+# URL = "contact"
+# name = "Kontak"
+# weight = 4
 
-[[menu.main]]
-URL = "faq"
-name = "FAQ"
-weight = 5
+# [[menu.main]]
+# URL = "faq"
+# name = "FAQ"
+# weight = 5
 
 # footer menu left
 [[menu.footer_left]]
 URL = "tentang"
 name = "Tentang Kami"
+weight = 1
 
 [[menu.footer_left]]
 URL = "blog"
 name = "Blog"
+weight = 2
 
 [[menu.footer_left]]
 URL = "images/pdf/proposal_penawaran.pdf"
 name = "Download Proposal"
+weight = 3
 
 # footer menu middle
 [[menu.footer_middle]]
 URL = "#"
 name = "Company Profile"
+weight = 1
 
 [[menu.footer_middle]]
 URL = "#"
 name = "Bumdes"
+weight = 2
 
 [[menu.footer_middle]]
 URL = "#"
 name = "Web Akademi"
+weight = 3
 
 # footer menu right
 [[menu.footer_right]]
 URL = "privacy-policy"
 name = "Privacy Policy"
+weight = 2
 
 [[menu.footer_right]]
-URL = "terms-conditions"
+URL = "syarat-dan-ketentuan"
 name = "Syarat & Ketentuan"
+weight = 3
 
 [[menu.footer_right]]
 URL = "faq"
 name = "FAQ"
+weight = 1
 
 #################### default parameters ################################
 [params]
@@ -121,7 +130,7 @@ images = ["/images/slahirtech.png"]
 
 # keywords
 #keywords
-keywords = "slahir cyber tech, cybertech, slahir technology, jasaweb, jasawebsite, jasaweblampung, website, webmurah"
+keywords = "slahir cyber tech, cybertech, slahir technology, jasaweb, jasawebsite, jasaweblampung, website, webmurah, jasa website murah, jasa pembuatan website company profile"
 
 ########### footer content ##########
 footer_content = """<i class='ti-location-pin'></i> Blok D Kel. Marga Agung Kec. Jati Agung - Lampung Selatan
@@ -140,7 +149,7 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation buttons
 [params.navigation_button]
 enable = true
-label = "Get Started"
+label = "Kontak"
 link = "contact"
 
 ############################# social site ########################
