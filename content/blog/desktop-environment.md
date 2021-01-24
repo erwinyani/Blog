@@ -23,7 +23,7 @@ _Desktop Environment_ (lingkungan desktop) adalah tampilan grafis modern yang bi
 
 ##### GUI (Graphical User Interface)?
 
-Dahulu komputer hanya bisa melakukan dan menampilkan sebuah baris - baris kode perintah melalui _CLI (Command Line Interface)_, bahkan orang awam pun sulit untuk mengerti penggunaannya. Seiring perkembangan zaman, komputer modern saat ini lebih _user fiendly_ dengan antarmuka pengguna yang baik dan dapat diopersikan dengan mudah serta nyaman.
+Dahulu komputer hanya bisa melakukan dan menampilkan sebuah baris - baris kode perintah melalui _CLI (Command Line Interface)_, bahkan orang awam pun sulit untuk mengerti penggunaannya. Seiring perkembangan zaman, komputer modern saat ini lebih _user fiendly_ dengan antarmuka pengguna yang baik dan dapat dioperasikan dengan mudah serta nyaman.
 
 ##### CLI (Command Line Interface)?
 

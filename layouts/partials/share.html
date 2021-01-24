@@ -15,10 +15,18 @@
         .share ul li i {
             font-size: 20px;
         }
+
+        .share ul li a {
+            color: #378ae9;
+        }
+
+        .share ul li a:hover {
+            color: #2376d4;
+        }
     </style>
 </head>
 <div class="share">
-    <span style="color: #378ae9;">Share with:</span>
+    <span style="color: #378ae9;">Bagikan:</span>
     <ul>
         <!-- Twitter -->
         {{ if .Site.Params.socialShareTwitter | default true}}

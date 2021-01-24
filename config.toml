@@ -139,7 +139,7 @@ footer_menu_left = "Tentang"
 footer_menu_middle = "Developer"
 footer_menu_right = "Bantuan"
 # copyright
-copyright = "&copy; 2020 Made With <span style='color: #378ae9'>&hearts;</span> By [SlahirTech](https://slahirtech.com/)"
+copyright = "&copy; 2021 Dibuat dengan <span style='color: #378ae9'>&hearts;</span> di Marga - Agung & Jatisari, Lampung - Selatan"
 
 # Preloader
 [params.preloader]
