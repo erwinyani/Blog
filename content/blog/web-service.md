@@ -13,7 +13,7 @@ description: "Web Service (Layanan Web) adalah sebuah teknologi aplikasi yang me
 draft: false
 ---
 
-Pernah mendengar istilah web service? pasti kamu sedang mencari - cari apa sih web service?, apa ya keuntungan menggunakan web service? dan bagaimana sih cara kerjanya?
+Pernah mendengar istilah web service? pasti kamu sedang mencari-cari apa sih web service?, apa ya keuntungan menggunakan web service? dan bagaimana sih cara kerjanya?
 
 **_Web Service_** (Layanan Web) adalah sebuah teknologi aplikasi _Multi-Platform_ yang menjembatani antara dua atau lebih aplikasi web untuk berkomunikasi dan bertukar informasi melalui jaringan internet.
 
@@ -21,11 +21,11 @@ Pernah mendengar istilah web service? pasti kamu sedang mencari - cari apa sih w
 
 ###### Jadi bagaimana cara kerja web service?
 
->Contoh sederhananya seperti ini, ada dua orang yang tinggal satu kos; Bambang dan Mark. Bambang hanya bisa berbahasa Indonesia sedangkan Mark hanya bisa berbahasa inggris, nah agar mereka bisa berkomunikasi tentu harus ada orang yang bisa berbahasa keduanya (Indonesia dan inggris). Namun karena mereka sama - sama baru tinggal di kos tersebut, mereka bingung untuk mengerti bahasa masing - masing, sedangkan di kos itu tidak ada orang selain mereka berdua. Kemudian Bambang menghubungi/menelpon teman yang bisa berbahasa Indonesia dan Inggris, sebut saja namanya Wahyu.
+>Contoh sederhananya seperti ini, ada dua orang yang tinggal satu kos; Bambang dan Mark. Bambang hanya bisa berbahasa Indonesia sedangkan Mark hanya bisa berbahasa inggris, nah agar mereka bisa berkomunikasi tentu harus ada orang yang bisa berbahasa keduanya (Indonesia dan inggris). Namun karena mereka sama-sama baru tinggal di kos tersebut, mereka bingung untuk mengerti bahasa masing-masing, sedangkan di kos itu tidak ada orang selain mereka berdua. Kemudian Bambang menghubungi/menelpon teman yang bisa berbahasa Indonesia dan Inggris, sebut saja namanya Wahyu.
 
 Nah proses komunikasi yang dilakukan Bambang dengan Wahyu melalui sambungan telpon untuk membantu menterjemahkan pertanyaan dari Mark disebut **Web Service**, karena _web service_ memerlukan jaringan internet untuk pertukaran data/informasinya.
 
-Pada umumnya, _request_ client ke server dalam format SOAP atau REST yang ditransfer didalam jaringan melalui protokol - protokol standard seperti HTTP / HTTPS.
+Pada umumnya, _request_ client ke server dalam format SOAP atau REST yang ditransfer didalam jaringan melalui protokol-protokol standard seperti HTTP / HTTPS.
 
 sedangkan, _response_ dari server ke client direpresentasikan dalam bentuk teks berformat XML atau JSON.
 
@@ -35,7 +35,7 @@ Contoh implementasi _web service_ seperti sistem login pada beberapa _website_ y
 menggunakan akun _facebook twitter_ dan _yahoo_ untuk sinkronsasi.
 
 Penjelasan : 
-Ini dapat terjadi karena facebook,twitter, yahoo dan lain - lain memiliki suatu _web service_ 
+Ini dapat terjadi karena facebook,twitter, yahoo dan lain-lain memiliki suatu _web service_ 
 yang memungkinkan sistem lain dapat menggunakan akun mereka untuk login. Ide dasaranya 
 adalah ketika ada dua sistem yaitu A dan B secara masing-masing berdiri secara mandiri. Pada 
 sistem example.com disana terdapat database _username_ dan _pasword_. Pada sistem book.com terdapat script form yang nantinya memanggil _username_ dan _password_ dari sistem example.com. Dalam proses login, script pada _login form_ tersebut mengirim parameter _username_ dan _password_ ke sistem example.com untuk dicek validitasnya melalui GET Request. Selanjutnya di dalam sistem example.com terdapat script untuk membaca _username_ dan _password_ yang berasal dari GET request dari sistem B untuk diproses validitasnya. Sebagai responnya, sistem  A  akan  men-_generate_ sebuah dokumen XML yang di dalamnya  terdapat sebuah  data  misalkan  berbentuk TRUE  atau  FALSE.  Bernilai TRUE  jika _username_ dan _password_ tersebut valid, dan FALSE jika tidak valid. Selanjutnya disistem B respon tersebut dibaca, jika data yang dibaca bernilai TRUE maka proses login berhasil dan jika FALSE 

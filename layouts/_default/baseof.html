@@ -2,7 +2,53 @@
 <html lang="{{ with site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 {{- partial "head.html" . -}}
 
+<style>
+	/* icon whatsapp */
+
+	.float-icon {
+		height: 50px;
+		width: 141px;
+		background-color: #114e1a7e;
+		border: 2px solid #2db742;
+		border-radius: 10px;
+		position: fixed;
+		padding: 4px;
+		color: #0cda2b;
+		right: 65px;
+		bottom: 25px;
+		z-index: 9999;
+	}
+
+	.float-icon:hover {
+		color: #02b91d;
+	}
+
+	.wa {
+		height: 50px;
+		width: 50px;
+		/* border-radius: 50px; */
+		position: fixed;
+		/* color: #ffffff; */
+		right: 10px;
+		bottom: 26px;
+		z-index: 9999;
+	}
+</style>
+
+
 <body>
+
+	<a
+		href="https://api.whatsapp.com/send?phone=+6288213128081&text=Hi,%20saya%20mau%20buat%20website%20custom%20dong%20!!!%20Bagaimana%20caranya%20?">
+
+		<img class="wa" src="/images/whatsapp.svg" alt="whatsapp">
+		<div class="float-icon">
+			<em><strong>Yuk buat website sekarang!</strong></em>
+		</div>
+
+	</a>
+
+
 	<!--Start of Tawk.to Script-->
 	<script type="text/javascript">
 		var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();

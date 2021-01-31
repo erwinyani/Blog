@@ -1,0 +1,1 @@
+api = sekumpulan fungsi, subroutine, protokol komunikasi, atau kakas / tools untuk membuat perangkat lunak.

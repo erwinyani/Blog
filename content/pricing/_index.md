@@ -11,7 +11,7 @@ mini:
   price_per : "month"
   # info : "Best For Small Individuals"
   services:
-    - Space 1 GB
+    - Space 2 GB
     - 3 Akun Email
     - 1 Pilihan Tema
     - Free Domain
@@ -25,11 +25,11 @@ mini:
     
 medium:
   name : "Medium"
-  price: "3.000.00"
+  price: "3.500.00"
   price_per : "month"
   info : "<strong><span style='color: #0aa8a7'>Company Profile</span></strong>"
   services:
-    - Space 2 GB
+    - Space 4 GB
     - 5 Akun Email
     - 1 Pilihan Tema
     - Free Domain
