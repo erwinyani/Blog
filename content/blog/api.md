@@ -8,7 +8,7 @@ image: "/images/blog/api.png"
 # post type (regular/featured)
 type: "featured"
 # meta description
-description: "Application Programming Interface adalah sekumpulan perintah, fungsi, protokol komunikasi atau kakas/_tools_/alat untuk membangun perangkat lunak."
+description: "Application Programming Interface adalah sekumpulan perintah, fungsi, protokol komunikasi atau kakas/tools/alat untuk membangun perangkat lunak."
 # post draft
 draft: false
 author: Erwin Aris Prayogo
@@ -16,7 +16,7 @@ author: Erwin Aris Prayogo
 
 Berbicara mengenai _API_ dan _Web API / Web Service_ seperti yang sudah kita bahas sebelumnya, _scope_ nya sangat luas. Kita akan melihat perbedaan-perbedaan itu secara terminologi, mengapa? karena kita sering salah memahami arti dari masing-masing mereka.
 
-##### Apa sih pengertian API?
+#### Apa sih pengertian API?
 
 _Application Programming Interface_(API) adalah sekumpulan perintah, fungsi, protokol komunikasi atau kakas/_tools_/alat untuk membangun perangkat lunak.
 
@@ -24,7 +24,7 @@ Sederhananya _API_ itu antarmuka yang digunakan untuk berkomunikasi dari satu at
 
 Istilah “API” sebenarnya tidak ada hubungannya dengan hal-hal yang berkaitan dengan web, karena API tidak harus menggunakan _internet_, istilah tersebut sudah ada sebelum web. Hal Ini semacam dikooptasi yang berarti “pemanggilan web service / web api”
 
-Jenis _API_ menurut penggunaanya sebagai beribut:
+Jenis _API_ menurut penggunaanya sebagai berikut:
 
 **1. _Open API_(sering disebut sebagai _Public API_).**
 
@@ -43,12 +43,12 @@ api ini memiliki izin atau lisensi khusus untuk mengaksesnya, biasanya berbayar.
 merupakan _API_ yang menyimpan data dari berbagai _server_ dalam satu tempat. _API_ ini adalah berupa urutan _task_ atau tugas yang berjalan secara sinkron (bersamaan) sebagai hasil dari sebuah eksekusi, di mana hasil pemicunya adalah hasil dari eksekusi (bukan permintaan yang berisi hasil eksekusi atas permintaan task). Penggunaan utamanya adalah untuk mempercepat _execution progress_ (proses eksekusi) dan meningkatkan kinerja pendengar di antarmuka web.
 
 
-##### Cara kerja API?
+#### Cara kerja API?
 
 Sederhananya cara kerja API mirip seperti pelayan _restaurant_ dimana si _customer_ di berikan pilihan menu makanan untuk di pesan kemudian pelayan mencatat pesanan lalu memberikan kepada koki untuk kemudian di antar kembali ke _customer_.
 
 
-##### Gambaran umum pengertian antarmuka(interface)?
+#### Gambaran umum pengertian antarmuka(interface)?
 
 Antarmuka adalah bagian yang sama dimana dua atau lebih komponen terpisah dari sistem komputer untuk bertukar informasi. Pertukaran dapat terjadi antara perangkat lunak, perangkat keras komputer, perangkat periferal, manusia, dan kombinasi keduanya. Sederhananya antarmuka adalah sebuah cara penghubung antara dua atau lebih perangkat yang terpisah.
 
@@ -62,7 +62,7 @@ Sering kita mendengar istilah dibawah ini:
 6. _Network Interface Card_.
 7. Dan masih banyak lagi istilah - istilah lain.
 
-##### Yang dimaksud web api?
+#### Yang dimaksud web api?
 
 Sedangkan _Web API_ sendiri adalah nama lain dari pengertian _web service_ seperti yang kita telah bahas sebelumnya.
 
@@ -84,7 +84,7 @@ Ini adalah panggilan prosedur jarak jauh menggunakan protokol HTTP dan XML sebag
 
 protokol panggilan prosedur jarak jauh yang dikodekan dalam JSON(Javascript Object Notation). Ini mirip dengan protokol XML-RPC, yang hanya mendefinisikan beberapa tipe data dan perintah.
 
-##### Manfaat API dan Web API?
+#### Manfaat API dan Web API?
 
 Adapun beberapa manfaatnya sebagai berikut:
 
@@ -108,6 +108,6 @@ Dengan adanya API, kamu tidak perlu melakukan komunikasi langsung dengan aplikas
 Sebagai contoh, kamu membangun website pemesanan tiket online untuk berbagai maskapai di dunia. Dengan bantuan API, kamu cukup melakukan integrasi untuk masing-masing layanan maskapai tersebut. Jadi, tidak perlu lagi melakukan komunikasi manual berupa _update_ harga atau tersedianya tempat duduk.
 
 
-##### Kesimpulan
+#### Kesimpulan
 
-Nah, jadi istilah API sebenarnya sudah ada sejak lama dan API tidak sebatas cara berkomunikasi antara aplikasi dengan aplikasi lain yang berbeda bahasa pemrograman, namun API juga digunakan antar sistem operasi dan platform-platform berbeda agar dapat berkomunikasi. Sedangkan _Web API_ adalah istilah yang digunakan untuk menyebut _Web Service_.
+Nah, jadi istilah API sebenarnya sudah ada sejak lama dan API tidak sebatas cara berkomunikasi antara aplikasi dengan aplikasi lain yang berbeda bahasa pemrograman, namun API juga digunakan antar sistem operasi dan platform-platform berbeda agar dapat berkomunikasi. Sedangkan _Web API_ adalah istilah lain yang digunakan untuk menyebut _Web Service_.

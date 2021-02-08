@@ -25,8 +25,8 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="233.65497"
+     inkscape:zoom="1.4"
+     inkscape:cx="146.53868"
      inkscape:cy="-34.498795"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -83,7 +83,7 @@
    id="tspan4754">Tech</tspan></tspan></text>
     <path
        style="opacity:1;fill:#378ae9;fill-opacity:0.85098039;stroke:#00004a;stroke-width:0;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0"
-       d="m 28.614674,274.05671 -6.324451,6.72432 2.242483,2.68148 1.135145,-1.2069 -1.203059,-1.43862 5.189186,-5.51731 2.517071,0.0415 1.135115,-1.20692 z m 6.512156,5.48729 -1.135207,1.20696 1.20297,1.43858 -5.189216,5.51736 -2.516862,-0.0417 -1.135172,1.20689 4.691428,0.0775 6.324421,-6.72432 z"
+       d="m 31.833154,276.5276 -4.37379,4.65033 1.55083,1.85442 0.78503,-0.83465 -0.831997,-0.9949 3.588676,-3.8156 1.740727,0.0287 0.78501,-0.83467 z m 4.503601,3.79484 -0.785074,0.83469 0.831936,0.99488 -3.588697,3.81563 -1.740582,-0.0288 -0.785049,0.83464 3.244443,0.0536 4.37377,-4.65032 z"
        id="path4918-6-0-3-3"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="24.5"
@@ -91,9 +91,9 @@
        inkscape:export-filename="/home/erwin/Documents/slahir/slahirtech/static/images/favicon.png" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.66345739px;line-height:1.25;font-family:'BankGothic Md BT';-inkscape-font-specification:'BankGothic Md BT';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:1;fill:#378ae9;fill-opacity:0.85098039;stroke:none;stroke-width:0.04158643"
-       x="23.739868"
-       y="348.55002"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.15039456px;line-height:1.25;font-family:'BankGothic Md BT';-inkscape-font-specification:'BankGothic Md BT';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:1;fill:#378ae9;fill-opacity:0.85098039;stroke:none;stroke-width:0.02875986"
+       x="26.131361"
+       y="348.91791"
        id="text4887-2-2-6-6-6"
        transform="scale(1.2399245,0.80650072)"
        inkscape:export-xdpi="24.5"
@@ -101,13 +101,13 @@
        inkscape:export-filename="/home/erwin/Documents/slahir/slahirtech/static/images/favicon.png"><tspan
          sodipodi:role="line"
          id="tspan4885-1-6-3-75-7"
-         x="24.061514"
-         y="348.55002"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'BankGothic Md BT';-inkscape-font-specification:'BankGothic Md BT';text-align:center;text-anchor:middle;fill:#378ae9;fill-opacity:0.85098039;stroke-width:0.04158643">SLAHIR </tspan><tspan
+         x="26.3538"
+         y="348.91791"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'BankGothic Md BT';-inkscape-font-specification:'BankGothic Md BT';text-align:center;text-anchor:middle;fill:#378ae9;fill-opacity:0.85098039;stroke-width:0.02875986">SLAHIR </tspan><tspan
          sodipodi:role="line"
-         x="23.739868"
-         y="350.62933"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'BankGothic Md BT';-inkscape-font-specification:'BankGothic Md BT';text-align:center;text-anchor:middle;fill:#378ae9;fill-opacity:0.85098039;stroke-width:0.04158643"
+         x="26.131361"
+         y="350.3559"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'BankGothic Md BT';-inkscape-font-specification:'BankGothic Md BT';text-align:center;text-anchor:middle;fill:#378ae9;fill-opacity:0.85098039;stroke-width:0.02875986"
          id="tspan4889-7-1-2-3-5">TECH</tspan></text>
   </g>
 </svg>
