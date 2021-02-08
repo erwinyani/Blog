@@ -46,7 +46,7 @@ Dalam ilmu komputer, _virtualisasi_ berarti membuat dan menjalankan versi maya d
 - Satu pusat serangan. Penempatan semua server dalam satu komputer akan menjadikannya sebagai target serangan. Jika hacker mampu menerobos masuk kedalam sistem induk, ada kemungkinan ia mampu menyusup kedalam server- server virtual dengan cara menggunakan informasi yang ada pada server induk.
 
 
-## Apa itu virtual machine?
+#### Apa itu virtual machine?
 
 _virtual machine_ atau mesin virtual adalah implementasi perangkat lunak dari sebuah mesin komputer yang dapat menjalankan program sama seperti layaknya sebuah komputer asli. Mesin virtual pada mulanya didefinisikan oleh **_Gerard J. Popek_** dan **_Robert P. Goldberg_** pada tahun 1974 sebagai sebuah duplikat yang efisien dan terisolasi dari suatu mesin asli. Pada masa sekarang ini, mesin-mesin virtual dapat men-simulasikan perangkat keras walaupun tidak ada perangkat keras aslinya sama sekali.
 
