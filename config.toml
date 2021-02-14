@@ -17,6 +17,10 @@ googleAnalytics = "G-ZLV8DKTVHH" # example : UA-123-45
 [markup.goldmark.renderer]
 unsafe = true
 
+[taxonomies]
+category = "categories"
+tag = "tags"
+
 ############################# Plugins ##############################
 
 # CSS Plugins

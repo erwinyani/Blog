@@ -1,9 +1,11 @@
 ####################### Banner #########################
 banner:
-  title : "<strong><span style='color: #378ae9;'>SLAHIR TECH</span>NOLOGY</strong><br>"
+  title : "<strong><span style='color: #378ae9;'>SLAHIR TECH</span><span style='color: #1a1a1adb;'>NOLOGY</span></strong><br>"
   image : "images/banner-art.svg"
   content : '<span style="font-size: 20px; color: #000; font-weight: bold;">"Maksimalkan Bisnis Anda Dengan Satu Sentuhan"</span> 
-  <br> Salah satu media online yang dapat kamu andalkan di era digitalisasi saat ini adalah<strong><em>Website.</em></strong><br>Kami sebagai jasa pembuatan website profesional sekaligus partner terbaik untuk menunjang bisnis anda.'
+  <br> Salah satu media online yang dapat kamu andalkan di era digitalisasi saat ini adalah<strong><em>Website,</em></strong> 
+  fungsi website sebagai media promosi dan mengenalkan profil, produk, jasa, layanan dan semua informasi tentang perusahaan secara <em>online</em>.
+  <br>Kami sebagai jasa pembuatan website profesional sekaligus partner terbaik untuk menunjang bisnis anda.'
   button:
     enable : true
     label : "WhatsApp"
@@ -68,7 +70,7 @@ service:
       images:
       - "images/service-1.svg"
       content : "Kami siap membantu anda untuk memiliki website profesional, desain modern dan responsif untuk dilihat diberbagai device (seperti smartphone dan tablet).
-       <br> Kami juga berpengalaman membangun website company profile, web akademi dan web lembaga swadaya masyarakat." 
+       <br> Kami juga berpengalaman mengembangkan website company profile, web akademi dan web lembaga swadaya masyarakat." 
       button:
         enable : true
         label : "Lihat Utuh"
