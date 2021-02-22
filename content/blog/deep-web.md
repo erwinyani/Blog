@@ -1,5 +1,5 @@
 ---
-title: "Mengenal surface web, dark web dan deep web"
+title: "Mengenal surface web, deep web dan dark web"
 date: 2021-02-14T10:07:21+06:00
 # post untuk og:image
 images: ["/images/blog/deep-web.png"]
