@@ -65,6 +65,11 @@ footer{
  background-color: #378ae9;   
 }
 
+/* .navigation
+{
+    border-bottom: 1px solid #eeeeeed5;
+} */
+
 ::selection {
 	background: #378ae9;
 	color: #FFFFFF;
@@ -88,6 +93,11 @@ footer{
 
 /* belum terpakai */
 .tags 
+{
+    color: red;
+}
+
+.sup
 {
     color: red;
 }
