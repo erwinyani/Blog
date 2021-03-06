@@ -1880,19 +1880,19 @@ form label {
 .maps
 {
 	width: 100%;
-	height: 250px;
+	height: 400px;
 }
 
 @media screen and (max-width: 768px) {
   .maps{
-		height: 250px;
+		height: 440px;
 		width: 100%;
 	}
 }
 
 @media screen and (max-width: 480px) {
   .maps{
-		height: 500px;
+		height: 400px;
 		width: 100%;
 	}
 }
@@ -1923,14 +1923,14 @@ form label {
   background-color: #F14E95;
 } */
 
-/* @media(max-width : 720px)
+@media(max-width : 720px)
 {
 	#fh5co-header
 	{
-		background-image:url(https://slahircybertech.com/agustyahendrawedding/background_mobile.jpg);						
+		background-image:url(https://slahirtech.com/zupikasanggarwedding/images/background-lite1.jpg);						
 	}
 }
-@media(min-width : 720px)
+/* @media(min-width : 720px)
 {
 	#fh5co-header
 	{

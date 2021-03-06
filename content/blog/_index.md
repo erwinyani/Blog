@@ -1,6 +1,6 @@
 ---
 title: "Berita Terbaru"
-subtitle: "<hr>"
+subtitle: ""
 # meta description
 description: "berita terbaru"
 draft: false
