@@ -1927,7 +1927,7 @@ form label {
 {
 	#fh5co-header
 	{
-		background-image: url("https://slahirtech.com/zupikasanggarwedding/images/background-lite1.jpg");						
+		background-image: url("https://slahirtech.com/zupikasanggarwedding/images/background_lite.jpg");						
 	}
 }
 
@@ -1936,8 +1936,10 @@ form label {
 	#fh5co-header
 	{
 		background-image: url("https://slahirtech.com/zupikasanggarwedding/images/background.jpg");						
+    max-width: 100%;
 	}
 }
+
 		
 .musicleft
 {
