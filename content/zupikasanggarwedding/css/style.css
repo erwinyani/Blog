@@ -1923,13 +1923,14 @@ form label {
   background-color: #F14E95;
 } */
 
-@media(max-width : 720px)
+@media(max-width : 450px)
 {
 	#fh5co-header
 	{
 		background-image: url("https://slahirtech.com/zupikasanggarwedding/images/background-lite1.jpg");						
 	}
 }
+
 @media(min-width : 720px)
 {
 	#fh5co-header
