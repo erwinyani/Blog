@@ -819,7 +819,7 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   top: .05em;
   font-family: 'icomoon';
-  speak: none;
+  /* speak: none; */
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1510,7 +1510,7 @@ form label {
   position: absolute;
   right: 0px;
   font-family: 'icomoon';
-  speak: none;
+  /* speak: none; */
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1927,16 +1927,16 @@ form label {
 {
 	#fh5co-header
 	{
-		background-image:url(https://slahirtech.com/zupikasanggarwedding/images/background-lite1.jpg);						
+		background-image: url("https://slahirtech.com/zupikasanggarwedding/images/background-lite1.jpg");						
 	}
 }
-/* @media(min-width : 720px)
+@media(min-width : 720px)
 {
 	#fh5co-header
 	{
-		background-image:url(https://slahircybertech.com/agustyahendrawedding/desktop.jpg);						
+		background-image: url("https://slahirtech.com/zupikasanggarwedding/images/background.jpg");						
 	}
-} */
+}
 		
 .musicleft
 {
