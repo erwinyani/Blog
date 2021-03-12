@@ -39,8 +39,33 @@ _Framework_ terbagi menjadi dua jenis:
 
 #### Jadi apa itu web framework?
 
-_Web Framework_ adalah kerangka kerja perangkat lunak yang digunakan untuk membangun dan mengembangkan aplikasi web dan website itu sendiri dengan mendukung ketersediaan pustaka, dependensi dan _debugging_.
+_Web Framework_ adalah kerangka kerja perangkat lunak yang digunakan untuk membangun dan mengembangkan aplikasi web dan website itu sendiri dengan mendukung ketersediaan pustaka, modul, dependensi, _debugging_ dan bahasa pemrograman tertentu sebagai basis utamanya.
 
+**Fungsi web framework:**
+
+1. Kode program lebih terstruktur dan konsisten.
+2. Mudah di _maintenance_.
+3. Mempercepat dan mempermudah pembuatan aplikasi web.
+4. Mudah untuk didokumentasikan oleh pengembang.
+5. Memiliki tingkat keamanan yang lebih karena framework telah mengantisipasi cela-cela keamanan yang mungkin timbul.
+6. Menghemat waktu pengembangan aplikasi web.
+
+**Jenis-jenis web framework:**
+
+Bahasa pemrograman PHP merupakan dasar dari pembuatan _web framework_ paling banyak didunia yang dikembangkan oleh _programmer_ baik secara individual ataupun kelompok organisasi tertentu bahkan oleh sebuah perusahaan.
+
+- Laravel
+- Codeigniter
+- Django
+- Ruby on Rails
+- Vue JS
+- .NET (Microsoft Dot NET)
+- Vaadin
+- Dan lain sebagainya
+
+#### Pengertian cms?
+
+_Content Management System_ atau sering disebut CMS saja, adalah  perangkat lunak yang digunakan untuk menambahkan atau memanipulasi (mengubah) isi dari suatu situs web.
 
 
 
