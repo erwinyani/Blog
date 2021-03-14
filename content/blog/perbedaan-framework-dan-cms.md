@@ -65,7 +65,36 @@ Bahasa pemrograman PHP merupakan dasar dari pembuatan _web framework_ paling ban
 
 #### Pengertian cms?
 
-_Content Management System_ atau sering disebut CMS saja, adalah  perangkat lunak yang digunakan untuk menambahkan atau memanipulasi (mengubah) isi dari suatu situs web.
+_Content Management System_ atau sering disebut CMS saja, adalah  perangkat lunak yang digunakan untuk menambahkan atau memanipulasi (mengubah) isi dari suatu situs web. Secara umum sistem pengolahan konten adalah perangkat lunak atau aplikasi web yang membantu pengguna untuk membuat, mengelola, mengubah, dan memodifikasi konten di dalam website tanpa harus memiliki kemampuan pemrograman khusus.
 
+**2 elemen content management system:**
+
+- Content Management Application / CMA (Aplikasi Pengolahan konten).
+    
+    _Elemen CMA_ digunakan untuk mengelola konten yang mungkin tidak memiliki pengetahuan mengenai HTML untuk mengelola pembuatan, pengubahan, dan penghapusan isi dari suatu situs web tanpa perlu memiliki keahlian sebagai seorang _webmaster_.
+
+- Content Delivery Application / CDA (Aplikasi Pengiriman Konten).
+
+    Elemen CDA menggunakan dan menghimpun informasi-informasi yang sebelumnya telah ditambah, dikurangi atau diubah oleh pemilik situs web untuk memperbaharui situs web tersebut.
+
+
+**Kelebihan cms?**
+
+1. Instalasi mudah dan dokumentasi yang lengkap dengan dukungan komunitas yang besar.
+2. Lebih cepat dan mudah untuk pengembangan website non-web apps.
+3. Tidak harus menguasai bahasa pemrograman terentu.
+4. Plug & Unplug tema atau aplikasi-aplikasi tambahan.
+5. Mudah dipelajari oleh orang awam.
+6. Biaya murah.
+7. _opensource_ (sumber terbuka).
+
+**Kekurangan cms?**
+
+1. Masalah kecepatan _page load_.
+
+
+**Beberapa cms terkenal yang banyak digunakan?**
+
+Sistem pengolahan konten sendiri selain dibuat dengan _native code_ menggunakan bahasa pemrograman tertentu juga menggunakan sebuah _web framework_ tertentu, misal _drupal8_ dan _prestashop_ yang didasarkan pada _symfony_ atau _wagtail_ yang didasarkan pada _web framework django_.
 
 
