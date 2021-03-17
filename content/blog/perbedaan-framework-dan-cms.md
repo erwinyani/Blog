@@ -30,7 +30,7 @@ Sebenarnya untuk membuat website memiliki banyak cara, misalnya _Hardcoding_ (me
 
 #### Apa sih framework?
 
-_Framework_ adalah "struktur pendukung dimana sesuatu dapat dibangun" ini menurut _Cambridge Dictionary_, jika diartikan dalam bahasa indonesia _framework_ berarti "kerangka kerja". Dalam ilmu komputer bidang pemrograman _framework_ merupakan perangkat lunak yang digunakan _programmer_ untuk membangun dan mengembangkan aplikasi lebih cepat, terstruktur dan konsisten.
+_Framework_ adalah "struktur pendukung dimana sesuatu dapat dibangun" ini menurut _Cambridge Dictionary_, jika diartikan dalam bahasa indonesia _framework_ berarti "kerangka kerja". Dalam ilmu komputer , _framework_ merupakan perangkat lunak yang digunakan _programmer_ untuk membangun dan mengembangkan aplikasi lebih cepat, terstruktur dan konsisten.
 
 _Framework_ terbagi menjadi dua jenis:
 
@@ -78,6 +78,40 @@ _Content Management System_ atau sering disebut CMS saja, adalah  perangkat luna
     Elemen CDA menggunakan dan menghimpun informasi-informasi yang sebelumnya telah ditambah, dikurangi atau diubah oleh pemilik situs web untuk memperbaharui situs web tersebut.
 
 
+**Beberapa cms terkenal yang banyak digunakan?**
+
+Sistem pengolahan konten sendiri selain dibuat dengan _native code_ menggunakan bahasa pemrograman tertentu juga menggunakan sebuah _web framework_ tertentu, misal _drupal8_ dan _prestashop_ yang didasarkan pada _symfony_ atau _wagtail_ yang didasarkan pada _web framework django_. Penggunaan teknologi cms saat ini mencapai 37.1%.
+
+1. _Wordpress_ 
+
+    Sekitar 40% website dibuat menggunakan CMS wordpress baik itu digunakan untuk membuat web _personal blog_, _company profile_, toko online. _Wordpress_ ada yang _opensource_ ada juga yang komersil, perbedaanya pada cara instalasinya saja jika di [wordpress.org](https://wordpress.org/) kita harus menginstal semua dependensi dan menkustomisasi domain maupun hosting sendiri sedangkan di [wordpress.com](https://wordpress.com/) sudah siap pakai dan kita tidak perlu repot instal _web server_, kustom domain dan lain-lain.
+
+2. _Drupal_
+
+    Sebuah perangkat lunak sistem pengolahan konten _multiplatform_ yang bebas dan terbuka yang di distribusikan di bawah lisensi GPL, pengembangan dan perawatannya dilakukan oleh ribuan komunitas pengguna dan pengembang di seluruh dunia.
+
+3. _Magento_
+
+    Merupakan perangkat lunak sistem pengolahan konten populer didunia untuk membuat website toko online maupun _e-commerce_.
+
+4. _Odoo_
+
+    _Odoo_ adalah sistem pengolahan konten _multiplatform_ untuk ERP (_Enterprise Resource Planning_) dan manajemen bisnis termasuk crm (_customer relationship management_), penagihan, akuntansi, manufaktur dan manajemen proyek yang banyak digunakan dikalangan pebisnis perusahaan.
+
+5. _Wagtail_
+
+    _Wagtail_ merupakan sistem pengolahan konten sumber terbuka yang dibuat berdasarkan _web framework django_ berlisensi BSD.
+
+6. _Strapi_
+
+    _Strapi_ adalah sistem pengolahan konten _headless_ sumber terbuka yang dibuat menggunakan bahasa pemrograman javascript berdasarkan node.js.
+
+7. _Contentful_
+
+    _Contentful_ juga termasuk _headless content management system_ yang cukup powerfull.
+
+    
+
 **Kelebihan cms?**
 
 1. Instalasi mudah dan dokumentasi yang lengkap dengan dukungan komunitas yang besar.
@@ -90,11 +124,10 @@ _Content Management System_ atau sering disebut CMS saja, adalah  perangkat luna
 
 **Kekurangan cms?**
 
-1. Masalah kecepatan _page load_.
+1. Masalah kecepatan _page load_ (loading halaman).
+2. Masalah keamanan.
+3. Tema dan plugin premium yang cenderung mahal.
 
+#### Kesimpulan
 
-**Beberapa cms terkenal yang banyak digunakan?**
-
-Sistem pengolahan konten sendiri selain dibuat dengan _native code_ menggunakan bahasa pemrograman tertentu juga menggunakan sebuah _web framework_ tertentu, misal _drupal8_ dan _prestashop_ yang didasarkan pada _symfony_ atau _wagtail_ yang didasarkan pada _web framework django_.
-
-
+_Software_ apapun yang kamu gunakan pastikan semua sesuai kebutuhan klien mu, setiap perangkat lunak pasti memiliki kelebihan dan kekurangannya. Jika kamu ingin membuat website yang cepat dan mudah yang tidak memerlukan kemampuan koding khusus gunakan **cms** tapi apabila kamu ingin belajar dan mengembangkan website yang lebih kompleks dengan fitur-fitur yang lengkap kamu bisa menggunakan **web framework**.
