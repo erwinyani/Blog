@@ -8,7 +8,7 @@ image: "/images/blog/framework-cms.png"
 # post type (regular/featured)
 type: "featured"
 # meta description
-description: "Cyber atau siber dalam bahasa Indonesia adalah sebuah tatanan kehidupan dalam dunia maya yang segala sesuatunya menggunakan teknologi informasi."
+description: "Web Framework adalah kerangka kerja perangkat lunak yang digunakan untuk membangun dan mengembangkan aplikasi web dan website itu sendiri dengan mendukung ketersediaan pustaka, modul, dependensi, debugging dan bahasa pemrograman tertentu sebagai basis utamanya sedangkan Content Management System atau sering disebut CMS saja, adalah  perangkat lunak yang digunakan untuk menambahkan atau memanipulasi (mengubah) isi dari suatu situs web. Secara umum sistem pengolahan konten adalah perangkat lunak atau aplikasi web yang membantu pengguna untuk membuat, mengelola, mengubah, dan memodifikasi konten di dalam website tanpa harus memiliki kemampuan pemrograman khusus"
 # post draft
 draft: false
 
