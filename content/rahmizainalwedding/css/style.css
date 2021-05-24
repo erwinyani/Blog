@@ -10,6 +10,15 @@
 * 	Template Style 
 *
 * ======================================================= */
+
+:root {
+  /* --navy: #000034; */
+  --blue: #000034;
+  --dark-blue: #0b75df;
+  /* --pink: #F69D9D; */
+  /* --white: #ffffff; */
+}
+
 body {
   font-family: "Work Sans", Arial, sans-serif;
   font-weight: 400;
@@ -25,7 +34,8 @@ body {
   width: 100px;
   height: 100px;
   /*background: rgba(241, 78, 149, 0.8);*/
-  background-color: #F69D9D;
+  /* background-color: #F69D9D; */
+  background-color: var(--blue);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -73,13 +83,13 @@ body {
 }
 
 a {
-  color: #F69D9D;
+  color: var(--blue);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #F69D9D;
+  color: var(--dark-blue);
   outline: none;
   text-decoration: none;
 }
@@ -97,17 +107,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #F69D9D;
+  background: var(--blue);
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #F69D9D;
+  background: var(--blue);
 }
 
 ::selection {
   color: #fff;
-  background: #F69D9D;
+  background: var(--blue);
 }
 
 .fh5co-nav {
@@ -223,7 +233,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
 }
 .fh5co-nav ul li.btn-cta a {
-  color: #F69D9D;
+  color: var(--blue);
 }
 .fh5co-nav ul li.btn-cta a span {
   background: #fff;
@@ -795,7 +805,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #F69D9D;
+  color: var(--blue);
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -814,7 +824,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 .fh5co-contact-info ul li:before {
-  color: #F69D9D;
+  color: var(--blue);
   position: absolute;
   left: 0;
   top: .05em;
@@ -914,7 +924,7 @@ form label {
 .fh5co-cover .display-tc .btn {
   padding: 15px 20px;
   background: #fff !important;
-  color: #F69D9D;
+  color: var(--blue);
   border: none !important;
   font-size: 14px;
   text-transform: uppercase;
@@ -1101,7 +1111,7 @@ form label {
 }
 .couple-half h3 {
   font-family: "Parisienne", "Abril Fatface", "Sacramento", Arial, serif;
-  color: #F69D9D;
+  color: var(--blue);
   font-size: 30px;
 }
 .couple-half .groom, .couple-half .bride {
@@ -1194,7 +1204,7 @@ form label {
   height: 90px;
   font-size: 40px;
   line-height: 40px;
-  color: #F69D9D;
+  color: var(--blue);
 }
 .feature-center p, .feature-center h3 {
   margin-bottom: 30px;
@@ -1216,7 +1226,7 @@ form label {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
-  color: #F69D9D;
+  color: var(--blue);
   font-family: "Abril Fatface", "Sacramento", Arial, serif;
 }
 @media screen and (max-width: 768px) {
@@ -1251,7 +1261,7 @@ form label {
   display: block;
 }
 #fh5co-testimonial .wrap-testimony .testimony-slide span a.twitter {
-  color: #F69D9D;
+  color: var(--blue);
   font-weight: 300;
 }
 #fh5co-testimonial .wrap-testimony .testimony-slide figure {
@@ -1343,7 +1353,7 @@ form label {
   display: table-cell;
   vertical-align: middle;
   font-size: 30px;
-  color: #F69D9D;
+  color: var(--blue);
 }
 .feature-left .feature-copy {
   float: left;
@@ -1409,7 +1419,7 @@ form label {
 #fh5co-started .btn {
   height: 54px;
   border: none !important;
-  background: #F69D9D;
+  background: var(--blue);
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
@@ -1453,7 +1463,7 @@ form label {
 }
 .owl-carousel .owl-controls .owl-dot.active span {
   background: transparent;
-  border: 2px solid #F69D9D;
+  border: 2px solid var(--blue);
 }
 
 #fh5co-offcanvas {
@@ -1706,21 +1716,21 @@ form label {
 }
 
 .btn-primary {
-  background: #F69D9D;
+  background: var(--blue);
   color: #fff;
-  border: 2px solid #F69D9D;
+  border: 2px solid var(--blue);
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #df8686 !important;
-  border-color: #df8686 !important;
+  background: var(--dark-blue) !important;
+  border-color: var(--dark-blue) !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #F69D9D;
-  border: 2px solid #F69D9D;
+  color: var(--blue);
+  border: 2px solid var(--blue);
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #F69D9D;
+  background: var(--blue);
   color: #fff;
 }
 
@@ -1850,7 +1860,7 @@ form label {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #F69D9D;
+  border-color: var(--blue);
 }
 
 .row-pb-md {
@@ -1939,7 +1949,7 @@ form label {
   content: '';
   display: block;
   border-style: double;
-  border-top: 0.8px solid #F69D9D;
+  border-top: 0.8px solid var(--blue);
   margin-top: 0.5em;
 }
 
@@ -1981,7 +1991,7 @@ form label {
 	height: 50px;
 	bottom: 25px;
 	left: 20px;
-	background-color: #F69D9D;
+	background-color: var(--blue);
 	opacity: 0.6;
 	color: #FFF;
 	border-radius: 50px;
@@ -1997,7 +2007,7 @@ form label {
 
 .tombol
 {
-  color: #F69D9D;
+  color: var(--blue);
 }
 
 
