@@ -5,11 +5,13 @@ $('#myModal').modal({
 
 const inputan = document.querySelector('input');
 const log = document.getElementById('invited');
+const log1 = document.getElementById('invited1');
 
 inputan.addEventListener('input', updateValue);
 
 function updateValue(e) {
     log.textContent = e.target.value;
+    log1.textContent = e.target.value;
 }
 
 
