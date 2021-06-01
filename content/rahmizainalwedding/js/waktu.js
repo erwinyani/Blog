@@ -2,8 +2,8 @@ Hitung();
 function Hitung() {
 
     tahun = 2021;
-    bulan = 05;
-    hari = 30;
+    bulan = 06;
+    hari = 01;
     jam = 8;
     menit = 00;
     detik = 00;
@@ -14,10 +14,10 @@ function Hitung() {
         tglTarget = new Date(tahun, (bulan - 1), hari, jam, menit, detik, 00);
         tglSkrg = new Date();
         tglSkrg = new Date(tglSkrg.getFullYear(), tglSkrg.getMonth(), tglSkrg.getDate(), tglSkrg.getHours(), tglSkrg.getMinutes(), tglSkrg.getSeconds(), 00, 00);
-        var sisaHari = parseInt((tglTarget - tglSkrg) / 86400000);
-        var sisaJam = parseInt((tglTarget - tglSkrg) / 3600000);
-        var sisaMenit = parseInt((tglTarget - tglSkrg) / 60000);
-        var sisaDetik = parseInt((tglTarget - tglSkrg) / 1000);
+        let sisaHari = parseInt((tglTarget - tglSkrg) / 86400000);
+        let sisaJam = parseInt((tglTarget - tglSkrg) / 3600000);
+        let sisaMenit = parseInt((tglTarget - tglSkrg) / 60000);
+        let sisaDetik = parseInt((tglTarget - tglSkrg) / 1000);
         detik = sisaMenit * 60;
         detik = sisaDetik - detik;
         menit = sisaJam * 60;
@@ -29,7 +29,7 @@ function Hitung() {
     }, 1000);
 }
 
-function mulaiHitung(hari, jam, menit, detik, tahun) {
+function mulaiHitung(hari, jam, menit, detik) {
     document.getElementById("hitungmundur1").innerHTML = "" + hari + "<span>Hari</span>";
     document.getElementById("hitungmundur2").innerHTML = "" + jam + "<span>Jam</span>";
     document.getElementById("hitungmundur3").innerHTML = "" + menit + "<span>Menit</span>";
